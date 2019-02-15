@@ -127,7 +127,7 @@ unirest.get('https://api.binance.com/api/v3/ticker/bookTicker')
 			//console.log(secondLegSymbolCurrency);
 			thirdLegSymbols = [];
 			allSymbols.forEach((symbol) => {
-				if((symbol.indexOf(secondLegSymbolCurrency) == 0) && symbol.includes(baseCurrency) && (symbol.length == ((baseCurrency.length + secondLegSymbolCurrency.length)))
+				if((symbol.indexOf(secondLegSymbolCurrency) == 0) && symbol.includes(baseCurrency) && (symbol.length == ((baseCurrency.length + secondLegSymbolCurrency.length))))
 				{
 					thirdLegSymbols.push(symbol);
 				}
@@ -233,8 +233,8 @@ unirest.get('https://api.binance.com/api/v3/ticker/bookTicker')
 					console.log('Net Profit: (' + baseCurrency + ') ' + netProfit );
 					console.log('Net Profit: ' + parseFloat(netProfitPercent).toFixed(2) + '%');
 				}
-				console.log('thirdLegSymbolCurrency: ' + thirdLegSymbolCurrency);
-				console.log('secondLegSymbolCurrency: ' + secondLegSymbolCurrency);
+				//console.log('thirdLegSymbolCurrency: ' + thirdLegSymbolCurrency);
+				//console.log('secondLegSymbolCurrency: ' + secondLegSymbolCurrency);
 				assert(thirdLegSymbolCurrency == secondLegSymbolCurrency);
 			});
 		});
