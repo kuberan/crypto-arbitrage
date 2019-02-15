@@ -48,8 +48,8 @@ function run()
 {
 
 	var checkOrderQuantity = false; // Check if Order quantity is sufficient for second and third leg
-	var profitThresholdUSD = 1;
-        var baseCurrency = 'USDT';
+	var profitThresholdUSD = 0.00028;
+        var baseCurrency = 'BTC';
 
 	var allSymbols = [];
         var firstLegSymbols = [];
@@ -127,7 +127,7 @@ unirest.get('https://api.binance.com/api/v3/ticker/bookTicker')
 			//console.log(secondLegSymbolCurrency);
 			thirdLegSymbols = [];
 			allSymbols.forEach((symbol) => {
-				if((symbol.indexOf(secondLegSymbolCurrency) == 0) && symbol.includes(baseCurrency))
+				if((symbol.indexOf(secondLegSymbolCurrency) == 0) && symbol.includes(baseCurrency) && (symbol.length == ((baseCurrency.length + secondLegSymbolCurrency.length)))
 				{
 					thirdLegSymbols.push(symbol);
 				}
@@ -233,7 +233,8 @@ unirest.get('https://api.binance.com/api/v3/ticker/bookTicker')
 					console.log('Net Profit: (' + baseCurrency + ') ' + netProfit );
 					console.log('Net Profit: ' + parseFloat(netProfitPercent).toFixed(2) + '%');
 				}
-
+				console.log('thirdLegSymbolCurrency: ' + thirdLegSymbolCurrency);
+				console.log('secondLegSymbolCurrency: ' + secondLegSymbolCurrency);
 				assert(thirdLegSymbolCurrency == secondLegSymbolCurrency);
 			});
 		});
