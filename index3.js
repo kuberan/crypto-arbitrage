@@ -4,7 +4,9 @@ var MongoClient = require('mongodb').MongoClient;
 
 /*
 
-- This Algorithm is making an assumption that the first leg and third leg will always have base currency as the second currency (for eg: EOSUSDT).
+- This Algorithm is making an assumption that the first leg and third leg will always have base currency as the second currency (for eg: EOSUSDT). - Because this the ignored ones are
+base currency: BTC - ignored BTCUSDT
+base currency: ETH - ignored ETHBTC ETHUSDT
 - This Algorithm only looks at a depth of 1 into the order book
 
 
