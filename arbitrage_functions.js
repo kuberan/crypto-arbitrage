@@ -10,7 +10,7 @@ var assert = require('assert');
 	profitThresholdPercent: Profit Threshold Percent
 	baseCurrency: Currrency that will be retained as profit after all 3 trades
 */
-function findTriangularArbitrage(data, checkOrderQuantity=false, profitThresholdPercent=0.3, baseCurrency='BTC', debug=false, feePercent=0.3)
+function findTriangularArbitrage(data, checkOrderQuantity=false, profitThresholdPercent=0.0, baseCurrency='BTC', debug=false, feePercent=0.3)
 {
 	//var checkOrderQuantity = false; // Check if Order quantity is sufficient for second and third leg
         //var profitThresholdPercent = 0.00028;
@@ -153,7 +153,7 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
 					}
 				}
 
-				if ((grossProfitPercent > profitThresholdPercent) && isOrderQuantitySufficient){
+				if ((netProfitPercent > profitThresholdPercent) && isOrderQuantitySufficient){
 					console.log();
 					//console.log((new Date()).toLocaleDateString() + ' ' + (new Date()).toLocaleTimeString());
 					console.log(firstLegSymbol + '->' + secondLegSymbol + '->' + thirdLegSymbol);
