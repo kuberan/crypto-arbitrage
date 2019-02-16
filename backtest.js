@@ -13,7 +13,7 @@ client.connect(function(err, client) {
 
 	// Insert a single document
 	var cursor = db.collection('binanceOrderBook').find({}).forEach(function(doc) {
-		arbitrageFunctions.findTriangularArbitrage(doc.binanceOrderData,checkOrderQuantity=true, profitThresholdPercent=0.3, baseCurrency='BNB', debug=true);
+		arbitrageFunctions.findTriangularArbitrage(doc.binanceOrderData,checkOrderQuantity=true, profitThresholdPercent=0.0, baseCurrency='USDT', debug=true, feePercent=0.3);
 	}, function(err) {
 		console.log(err);
 		client.close();
