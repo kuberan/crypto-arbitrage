@@ -129,6 +129,8 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
 
 				grossProfit = (thirdLegTransaction['totalPriceBaseCurrency'] - firstLegTransaction['totalPriceBaseCurrency']);
 				grossProfitPercent = (thirdLegTransaction['totalPriceBaseCurrency'] - firstLegTransaction['totalPriceBaseCurrency'])/firstLegTransaction['totalPriceBaseCurrency'] * 100.0;
+				netProfitPercent = grossProfitPercent - feePercent;
+				netProfit = netProfitPercent / grossProfitPercent * grossProfit;
 
 				isSecondLegQuanitySufficient = false;
 				if (firstLegTransaction['qty'] <= secondLegTransaction['qty'])
