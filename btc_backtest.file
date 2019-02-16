@@ -1,0 +1,226 @@
+
+2/16/2019 12:09:57 AM
+XZCBTC->XZCXRP->XRPBTC
+First Leg Order Book: XZCBTC
+{ bidPrice: '0.00137700',
+  bidQty: '10.70000000',
+  askPrice: '0.00137900',
+  askQty: '11.92000000' }
+First Leg Order
+{ buyingCurrency: 'XZC',
+  sellingCurrency: 'BTC',
+  qty: '11.92000000',
+  price: '0.00137900',
+  totalPriceBaseCurrency: 0.01643768,
+  orderType: 'BUY',
+  symbol: 'XZCBTC' }
+Second Leg Order Book: XZCXRP
+{ bidPrice: '16.63000000',
+  bidQty: '0.16700000',
+  askPrice: '16.63200000',
+  askQty: '23.35100000' }
+Second Leg Order
+{ buyingCurrency: 'XRP',
+  sellingCurrency: 'XZC',
+  symbol: 'XZCXRP',
+  orderType: 'SELL',
+  qty: 198.22959999999998,
+  price: '16.63000000',
+  totalPrice: '11.92000000' }
+Third Leg Order Book: XRPBTC
+{ bidPrice: '0.00008326',
+  bidQty: '3719.00000000',
+  askPrice: '0.00008328',
+  askQty: '73.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'XRP',
+  qty: 198.22959999999998,
+  price: '0.00008326',
+  totalPriceBaseCurrency: 0.016504596495999998,
+  orderType: 'SELL',
+  symbol: 'XRPBTC' }
+Total Investment: (BTC) 0.01643768
+Net Profit: (BTC) 0.00006691649599999822
+Net Profit: 0.41%
+
+2/16/2019 12:09:57 AM
+XZCBTC->XZCXRP->XRPBTC
+First Leg Order Book: XZCBTC
+{ bidPrice: '0.00137700',
+  bidQty: '10.70000000',
+  askPrice: '0.00137900',
+  askQty: '11.92000000' }
+First Leg Order
+{ buyingCurrency: 'XZC',
+  sellingCurrency: 'BTC',
+  qty: '11.92000000',
+  price: '0.00137900',
+  totalPriceBaseCurrency: 0.01643768,
+  orderType: 'BUY',
+  symbol: 'XZCBTC' }
+Second Leg Order Book: XZCXRP
+{ bidPrice: '16.63000000',
+  bidQty: '0.16700000',
+  askPrice: '16.63200000',
+  askQty: '23.35100000' }
+Second Leg Order
+{ buyingCurrency: 'XRP',
+  sellingCurrency: 'XZC',
+  symbol: 'XZCXRP',
+  orderType: 'SELL',
+  qty: 198.22959999999998,
+  price: '16.63000000',
+  totalPrice: '11.92000000' }
+Third Leg Order Book: XRPBTC
+{ bidPrice: '0.00008326',
+  bidQty: '3719.00000000',
+  askPrice: '0.00008328',
+  askQty: '73.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'XRP',
+  qty: 198.22959999999998,
+  price: '0.00008326',
+  totalPriceBaseCurrency: 0.016504596495999998,
+  orderType: 'SELL',
+  symbol: 'XRPBTC' }
+Total Investment: (BTC) 0.01643768
+Net Profit: (BTC) 0.00006691649599999822
+Net Profit: 0.41%
+
+2/16/2019 12:09:58 AM
+XZCBTC->XZCXRP->XRPBTC
+First Leg Order Book: XZCBTC
+{ bidPrice: '0.00137700',
+  bidQty: '10.70000000',
+  askPrice: '0.00137900',
+  askQty: '11.92000000' }
+First Leg Order
+{ buyingCurrency: 'XZC',
+  sellingCurrency: 'BTC',
+  qty: '11.92000000',
+  price: '0.00137900',
+  totalPriceBaseCurrency: 0.01643768,
+  orderType: 'BUY',
+  symbol: 'XZCBTC' }
+Second Leg Order Book: XZCXRP
+{ bidPrice: '16.63000000',
+  bidQty: '0.16700000',
+  askPrice: '16.63200000',
+  askQty: '23.35100000' }
+Second Leg Order
+{ buyingCurrency: 'XRP',
+  sellingCurrency: 'XZC',
+  symbol: 'XZCXRP',
+  orderType: 'SELL',
+  qty: 198.22959999999998,
+  price: '16.63000000',
+  totalPrice: '11.92000000' }
+Third Leg Order Book: XRPBTC
+{ bidPrice: '0.00008326',
+  bidQty: '3719.00000000',
+  askPrice: '0.00008328',
+  askQty: '73.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'XRP',
+  qty: 198.22959999999998,
+  price: '0.00008326',
+  totalPriceBaseCurrency: 0.016504596495999998,
+  orderType: 'SELL',
+  symbol: 'XRPBTC' }
+Total Investment: (BTC) 0.01643768
+Net Profit: (BTC) 0.00006691649599999822
+Net Profit: 0.41%
+
+2/16/2019 12:09:58 AM
+XZCBTC->XZCXRP->XRPBTC
+First Leg Order Book: XZCBTC
+{ bidPrice: '0.00137700',
+  bidQty: '10.70000000',
+  askPrice: '0.00137900',
+  askQty: '11.92000000' }
+First Leg Order
+{ buyingCurrency: 'XZC',
+  sellingCurrency: 'BTC',
+  qty: '11.92000000',
+  price: '0.00137900',
+  totalPriceBaseCurrency: 0.01643768,
+  orderType: 'BUY',
+  symbol: 'XZCBTC' }
+Second Leg Order Book: XZCXRP
+{ bidPrice: '16.63000000',
+  bidQty: '0.16700000',
+  askPrice: '16.63200000',
+  askQty: '23.35100000' }
+Second Leg Order
+{ buyingCurrency: 'XRP',
+  sellingCurrency: 'XZC',
+  symbol: 'XZCXRP',
+  orderType: 'SELL',
+  qty: 198.22959999999998,
+  price: '16.63000000',
+  totalPrice: '11.92000000' }
+Third Leg Order Book: XRPBTC
+{ bidPrice: '0.00008326',
+  bidQty: '3719.00000000',
+  askPrice: '0.00008328',
+  askQty: '73.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'XRP',
+  qty: 198.22959999999998,
+  price: '0.00008326',
+  totalPriceBaseCurrency: 0.016504596495999998,
+  orderType: 'SELL',
+  symbol: 'XRPBTC' }
+Total Investment: (BTC) 0.01643768
+Net Profit: (BTC) 0.00006691649599999822
+Net Profit: 0.41%
+
+2/16/2019 12:11:43 AM
+ETHBTC->ARDRETH->ARDRBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03379600',
+  bidQty: '0.00200000',
+  askPrice: '0.03380400',
+  askQty: '7.98400000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '7.98400000',
+  price: '0.03380400',
+  totalPriceBaseCurrency: 0.26989113600000003,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: ARDRETH
+{ bidPrice: '0.00044673',
+  bidQty: '142.00000000',
+  askPrice: '0.00045133',
+  askQty: '63.00000000' }
+Second Leg Order
+{ buyingCurrency: 'ARDR',
+  sellingCurrency: 'ETH',
+  symbol: 'ARDRETH',
+  orderType: 'BUY',
+  qty: 17689.938625839186,
+  price: '0.00045133',
+  totalPrice: '7.98400000' }
+Third Leg Order Book: ARDRBTC
+{ bidPrice: '0.00001535',
+  bidQty: '43156.00000000',
+  askPrice: '0.00001536',
+  askQty: '104.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ARDR',
+  qty: 17689.938625839186,
+  price: '0.00001535',
+  totalPriceBaseCurrency: 0.2715405579066315,
+  orderType: 'SELL',
+  symbol: 'ARDRBTC' }
+Total Investment: (BTC) 0.26989113600000003
+Net Profit: (BTC) 0.0016494219066314764
+Net Profit: 0.61%
+null

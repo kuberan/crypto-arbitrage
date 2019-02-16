@@ -1,0 +1,1036 @@
+
+2/16/2019 12:03:39 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '207.66000000',
+  askPrice: '1.00920000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00920000',
+  totalPriceBaseCurrency: 403.68000000000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3226995.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090530',
+  bidQty: '5803526.00000000',
+  askPrice: '0.00090540',
+  askQty: '143915.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090530',
+  totalPriceBaseCurrency: 405.0559284116331,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.68000000000006
+Net Profit: (USDT) 1.3759284116330264
+Net Profit: 0.34%
+
+2/16/2019 12:03:40 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00870000',
+  bidQty: '466.80000000',
+  askPrice: '1.00920000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00920000',
+  totalPriceBaseCurrency: 403.68000000000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3226995.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090530',
+  bidQty: '5803526.00000000',
+  askPrice: '0.00090540',
+  askQty: '143915.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090530',
+  totalPriceBaseCurrency: 405.0559284116331,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.68000000000006
+Net Profit: (USDT) 1.3759284116330264
+Net Profit: 0.34%
+
+2/16/2019 12:03:40 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00870000',
+  bidQty: '466.80000000',
+  askPrice: '1.00920000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00920000',
+  totalPriceBaseCurrency: 403.68000000000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3226995.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090530',
+  bidQty: '5803526.00000000',
+  askPrice: '0.00090540',
+  askQty: '143915.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090530',
+  totalPriceBaseCurrency: 405.0559284116331,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.68000000000006
+Net Profit: (USDT) 1.3759284116330264
+Net Profit: 0.34%
+
+2/16/2019 12:03:40 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '274.84000000',
+  askPrice: '1.00920000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00920000',
+  totalPriceBaseCurrency: 403.68000000000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3226995.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090530',
+  bidQty: '5803526.00000000',
+  askPrice: '0.00090540',
+  askQty: '143915.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090530',
+  totalPriceBaseCurrency: 405.0559284116331,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.68000000000006
+Net Profit: (USDT) 1.3759284116330264
+Net Profit: 0.34%
+
+2/16/2019 12:03:40 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '274.84000000',
+  askPrice: '1.00920000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00920000',
+  totalPriceBaseCurrency: 403.68000000000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3226995.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090530',
+  bidQty: '3136021.00000000',
+  askPrice: '0.00090540',
+  askQty: '143915.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090530',
+  totalPriceBaseCurrency: 405.0559284116331,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.68000000000006
+Net Profit: (USDT) 1.3759284116330264
+Net Profit: 0.34%
+
+2/16/2019 12:03:40 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '274.84000000',
+  askPrice: '1.00920000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00920000',
+  totalPriceBaseCurrency: 403.68000000000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3226995.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090530',
+  bidQty: '3625062.00000000',
+  askPrice: '0.00090540',
+  askQty: '143915.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090530',
+  totalPriceBaseCurrency: 405.0559284116331,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.68000000000006
+Net Profit: (USDT) 1.3759284116330264
+Net Profit: 0.34%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00900000',
+  bidQty: '223.96000000',
+  askPrice: '1.00910000',
+  askQty: '371.75000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '371.75000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 375.13292500000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3227796.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 415827.74049217,
+  price: '0.00089400',
+  totalPrice: '371.75000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090520',
+  bidQty: '3086508.00000000',
+  askPrice: '0.00090530',
+  askQty: '69027.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 415827.74049217,
+  price: '0.00090520',
+  totalPriceBaseCurrency: 376.40727069351226,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 375.13292500000006
+Net Profit: (USDT) 1.2743456935122026
+Net Profit: 0.34%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00900000',
+  bidQty: '223.96000000',
+  askPrice: '1.00910000',
+  askQty: '371.75000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '371.75000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 375.13292500000006,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3227796.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 415827.74049217,
+  price: '0.00089400',
+  totalPrice: '371.75000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090520',
+  bidQty: '961095.00000000',
+  askPrice: '0.00090590',
+  askQty: '2431533.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 415827.74049217,
+  price: '0.00090520',
+  totalPriceBaseCurrency: 376.40727069351226,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 375.13292500000006
+Net Profit: (USDT) 1.2743456935122026
+Net Profit: 0.34%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '339.69000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3227869.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090490',
+  bidQty: '1592558.00000000',
+  askPrice: '0.00090500',
+  askQty: '158609.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090490',
+  totalPriceBaseCurrency: 404.8769574944071,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.2369574944070791
+Net Profit: 0.31%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '339.69000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089070',
+  bidQty: '3227869.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090490',
+  bidQty: '1592558.00000000',
+  askPrice: '0.00090500',
+  askQty: '158609.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090490',
+  totalPriceBaseCurrency: 404.8769574944071,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.2369574944070791
+Net Profit: 0.31%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '339.69000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089320',
+  bidQty: '1299342.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090490',
+  bidQty: '1592558.00000000',
+  askPrice: '0.00090500',
+  askQty: '158609.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090490',
+  totalPriceBaseCurrency: 404.8769574944071,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.2369574944070791
+Net Profit: 0.31%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '339.69000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089320',
+  bidQty: '1299342.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090500',
+  bidQty: '581937.00000000',
+  askPrice: '0.00090560',
+  askQty: '1383159.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090500',
+  totalPriceBaseCurrency: 404.92170022371363,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.2817002237135853
+Net Profit: 0.32%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '322.12000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089320',
+  bidQty: '1299342.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1073843.00000000',
+  askPrice: '0.00090590',
+  askQty: '2431533.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '322.12000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089330',
+  bidQty: '892895.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1018754.00000000',
+  askPrice: '0.00090590',
+  askQty: '2431533.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '322.12000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089330',
+  bidQty: '892895.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1018754.00000000',
+  askPrice: '0.00090590',
+  askQty: '2431533.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '322.12000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089330',
+  bidQty: '892895.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1018754.00000000',
+  askPrice: '0.00090590',
+  askQty: '2431533.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '322.12000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089330',
+  bidQty: '892895.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1018754.00000000',
+  askPrice: '0.00090590',
+  askQty: '1327781.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '252.64000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089330',
+  bidQty: '892895.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1018754.00000000',
+  askPrice: '0.00090590',
+  askQty: '1327781.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '252.64000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089330',
+  bidQty: '892895.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1018754.00000000',
+  askPrice: '0.00090590',
+  askQty: '1262864.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:03:41 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00880000',
+  bidQty: '252.64000000',
+  askPrice: '1.00910000',
+  askQty: '400.00000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '400.00000000',
+  price: '1.00910000',
+  totalPriceBaseCurrency: 403.64000000000004,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089330',
+  bidQty: '892895.00000000',
+  askPrice: '0.00089400',
+  askQty: '6085.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 447427.2930648769,
+  price: '0.00089400',
+  totalPrice: '400.00000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00090580',
+  bidQty: '1018754.00000000',
+  askPrice: '0.00090590',
+  askQty: '1262864.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 447427.2930648769,
+  price: '0.00090580',
+  totalPriceBaseCurrency: 405.2796420581655,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 403.64000000000004
+Net Profit: (USDT) 1.6396420581654638
+Net Profit: 0.41%
+
+2/16/2019 12:04:02 AM
+ETHUSDT->NULSETH->NULSUSDT
+First Leg Order Book: ETHUSDT
+{ bidPrice: '122.26000000',
+  bidQty: '0.17996000',
+  askPrice: '122.29000000',
+  askQty: '6.27465000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'USDT',
+  qty: '6.27465000',
+  price: '122.29000000',
+  totalPriceBaseCurrency: 767.3269485000001,
+  orderType: 'BUY',
+  symbol: 'ETHUSDT' }
+Second Leg Order Book: NULSETH
+{ bidPrice: '0.00332582',
+  bidQty: '1086.00000000',
+  askPrice: '0.00334773',
+  askQty: '2.00000000' }
+Second Leg Order
+{ buyingCurrency: 'NULS',
+  sellingCurrency: 'ETH',
+  symbol: 'NULSETH',
+  orderType: 'BUY',
+  qty: 1874.2998987373533,
+  price: '0.00334773',
+  totalPrice: '6.27465000' }
+Third Leg Order Book: NULSUSDT
+{ bidPrice: '0.41080000',
+  bidQty: '19794.12000000',
+  askPrice: '0.41170000',
+  askQty: '540.33000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'NULS',
+  qty: 1874.2998987373533,
+  price: '0.41080000',
+  totalPriceBaseCurrency: 769.9623984013048,
+  orderType: 'SELL',
+  symbol: 'NULSUSDT' }
+Total Investment: (USDT) 767.3269485000001
+Net Profit: (USDT) 2.635449901304696
+Net Profit: 0.34%
+
+2/16/2019 12:04:02 AM
+BNBUSDT->NULSBNB->NULSUSDT
+First Leg Order Book: BNBUSDT
+{ bidPrice: '9.12040000',
+  bidQty: '2.71000000',
+  askPrice: '9.12050000',
+  askQty: '2.41000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'USDT',
+  qty: '2.41000000',
+  price: '9.12050000',
+  totalPriceBaseCurrency: 21.980405,
+  orderType: 'BUY',
+  symbol: 'BNBUSDT' }
+Second Leg Order Book: NULSBNB
+{ bidPrice: '0.04460000',
+  bidQty: '366.00000000',
+  askPrice: '0.04490000',
+  askQty: '1.10000000' }
+Second Leg Order
+{ buyingCurrency: 'NULS',
+  sellingCurrency: 'BNB',
+  symbol: 'NULSBNB',
+  orderType: 'BUY',
+  qty: 53.67483296213808,
+  price: '0.04490000',
+  totalPrice: '2.41000000' }
+Third Leg Order Book: NULSUSDT
+{ bidPrice: '0.41080000',
+  bidQty: '19794.12000000',
+  askPrice: '0.41170000',
+  askQty: '540.33000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'NULS',
+  qty: 53.67483296213808,
+  price: '0.41080000',
+  totalPriceBaseCurrency: 22.049621380846325,
+  orderType: 'SELL',
+  symbol: 'NULSUSDT' }
+Total Investment: (USDT) 21.980405
+Net Profit: (USDT) 0.0692163808463242
+Net Profit: 0.31%
+
+2/16/2019 12:06:18 AM
+TUSDUSDT->BTTTUSD->BTTUSDT
+First Leg Order Book: TUSDUSDT
+{ bidPrice: '1.00900000',
+  bidQty: '600.00000000',
+  askPrice: '1.00920000',
+  askQty: '0.03000000' }
+First Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'USDT',
+  qty: '0.03000000',
+  price: '1.00920000',
+  totalPriceBaseCurrency: 0.030276,
+  orderType: 'BUY',
+  symbol: 'TUSDUSDT' }
+Second Leg Order Book: BTTTUSD
+{ bidPrice: '0.00089470',
+  bidQty: '19329.00000000',
+  askPrice: '0.00090010',
+  askQty: '7165.00000000' }
+Second Leg Order
+{ buyingCurrency: 'BTT',
+  sellingCurrency: 'TUSD',
+  symbol: 'BTTTUSD',
+  orderType: 'BUY',
+  qty: 33.32963004110654,
+  price: '0.00090010',
+  totalPrice: '0.03000000' }
+Third Leg Order Book: BTTUSDT
+{ bidPrice: '0.00091200',
+  bidQty: '15702105.00000000',
+  askPrice: '0.00091260',
+  askQty: '591290.00000000' }
+Third Leg Order
+{ buyingCurrency: 'USDT',
+  sellingCurrency: 'BTT',
+  qty: 33.32963004110654,
+  price: '0.00091200',
+  totalPriceBaseCurrency: 0.030396622597489167,
+  orderType: 'SELL',
+  symbol: 'BTTUSDT' }
+Total Investment: (USDT) 0.030276
+Net Profit: (USDT) 0.00012062259748916657
+Net Profit: 0.40%
+null
