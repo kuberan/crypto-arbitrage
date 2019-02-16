@@ -10,7 +10,7 @@ var assert = require('assert');
 	profitThresholdPercent: Profit Threshold Percent
 	baseCurrency: Currrency that will be retained as profit after all 3 trades
 */
-function findTriangularArbitrage(data, checkOrderQuantity=false, profitThresholdPercent=0.3, baseCurrency='BTC', debug=false)
+function findTriangularArbitrage(data, checkOrderQuantity=false, profitThresholdPercent=0.3, baseCurrency='BTC', debug=false, feePercent=0.3)
 {
 	//var checkOrderQuantity = false; // Check if Order quantity is sufficient for second and third leg
         //var profitThresholdPercent = 0.00028;
@@ -28,6 +28,8 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
         var firstLegTransaction = {};
         var secondLegTransaction = {};
         var thirdLegTransaction = {};
+	var grossProfit;
+	var grossProfitPercent;
         var netProfit;
         var netProfitPercent;
         var isSecondLegQuanitySufficient = false;
@@ -125,8 +127,8 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
 				thirdLegTransaction['symbol'] = thirdLegSymbol;
 
 
-				netProfit = (thirdLegTransaction['totalPriceBaseCurrency'] - firstLegTransaction['totalPriceBaseCurrency']);
-				netProfitPercent = (thirdLegTransaction['totalPriceBaseCurrency'] - firstLegTransaction['totalPriceBaseCurrency'])/firstLegTransaction['totalPriceBaseCurrency'] * 100.0;
+				grossProfit = (thirdLegTransaction['totalPriceBaseCurrency'] - firstLegTransaction['totalPriceBaseCurrency']);
+				grossProfitPercent = (thirdLegTransaction['totalPriceBaseCurrency'] - firstLegTransaction['totalPriceBaseCurrency'])/firstLegTransaction['totalPriceBaseCurrency'] * 100.0;
 
 				isSecondLegQuanitySufficient = false;
 				if (firstLegTransaction['qty'] <= secondLegTransaction['qty'])
@@ -149,7 +151,7 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
 					}
 				}
 
-				if ((netProfitPercent > profitThresholdPercent) && isOrderQuantitySufficient){
+				if ((grossProfitPercent > profitThresholdPercent) && isOrderQuantitySufficient){
 					console.log();
 					//console.log((new Date()).toLocaleDateString() + ' ' + (new Date()).toLocaleTimeString());
 					console.log(firstLegSymbol + '->' + secondLegSymbol + '->' + thirdLegSymbol);
@@ -173,8 +175,10 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
 					}
 				
 					console.log('Total Investment: (' + baseCurrency + ') ' + firstLegTransaction['totalPriceBaseCurrency']);	
-					console.log('Net Profit: (' + baseCurrency + ') ' + netProfit );
-					console.log('Net Profit: ' + parseFloat(netProfitPercent).toFixed(2) + '%');
+					console.log('Gross Profit before fee: (' + baseCurrency + ') ' + grossProfit );
+					console.log('Gross Profit before fee: ' + parseFloat(grossProfitPercent).toFixed(2) + '%');
+					console.log('Net Profit after fee: (' + baseCurrency + ') ' + netProfit );
+                                        console.log('Net Profit after fee: ' + parseFloat(netProfitPercent).toFixed(2) + '%');
 				}
 				//console.log('thirdLegSymbolCurrency: ' + thirdLegSymbolCurrency);
 				//console.log('secondLegSymbolCurrency: ' + secondLegSymbolCurrency);
