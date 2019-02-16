@@ -1,5 +1,4 @@
 
-2/16/2019 12:09:57 AM
 XZCBTC->XZCXRP->XRPBTC
 First Leg Order Book: XZCBTC
 { bidPrice: '0.00137700',
@@ -41,10 +40,11 @@ Third Leg Order
   orderType: 'SELL',
   symbol: 'XRPBTC' }
 Total Investment: (BTC) 0.01643768
-Net Profit: (BTC) 0.00006691649599999822
-Net Profit: 0.41%
+Gross Profit before fee: (BTC) 0.00006691649599999822
+Gross Profit before fee: 0.41%
+Net Profit after fee: (BTC) 0.00001760345599999822
+Net Profit after fee: 0.11%
 
-2/16/2019 12:09:57 AM
 XZCBTC->XZCXRP->XRPBTC
 First Leg Order Book: XZCBTC
 { bidPrice: '0.00137700',
@@ -86,10 +86,11 @@ Third Leg Order
   orderType: 'SELL',
   symbol: 'XRPBTC' }
 Total Investment: (BTC) 0.01643768
-Net Profit: (BTC) 0.00006691649599999822
-Net Profit: 0.41%
+Gross Profit before fee: (BTC) 0.00006691649599999822
+Gross Profit before fee: 0.41%
+Net Profit after fee: (BTC) 0.00001760345599999822
+Net Profit after fee: 0.11%
 
-2/16/2019 12:09:58 AM
 XZCBTC->XZCXRP->XRPBTC
 First Leg Order Book: XZCBTC
 { bidPrice: '0.00137700',
@@ -131,10 +132,11 @@ Third Leg Order
   orderType: 'SELL',
   symbol: 'XRPBTC' }
 Total Investment: (BTC) 0.01643768
-Net Profit: (BTC) 0.00006691649599999822
-Net Profit: 0.41%
+Gross Profit before fee: (BTC) 0.00006691649599999822
+Gross Profit before fee: 0.41%
+Net Profit after fee: (BTC) 0.00001760345599999822
+Net Profit after fee: 0.11%
 
-2/16/2019 12:09:58 AM
 XZCBTC->XZCXRP->XRPBTC
 First Leg Order Book: XZCBTC
 { bidPrice: '0.00137700',
@@ -176,10 +178,11 @@ Third Leg Order
   orderType: 'SELL',
   symbol: 'XRPBTC' }
 Total Investment: (BTC) 0.01643768
-Net Profit: (BTC) 0.00006691649599999822
-Net Profit: 0.41%
+Gross Profit before fee: (BTC) 0.00006691649599999822
+Gross Profit before fee: 0.41%
+Net Profit after fee: (BTC) 0.00001760345599999822
+Net Profit after fee: 0.11%
 
-2/16/2019 12:11:43 AM
 ETHBTC->ARDRETH->ARDRBTC
 First Leg Order Book: ETHBTC
 { bidPrice: '0.03379600',
@@ -221,6 +224,4792 @@ Third Leg Order
   orderType: 'SELL',
   symbol: 'ARDRBTC' }
 Total Investment: (BTC) 0.26989113600000003
-Net Profit: (BTC) 0.0016494219066314764
-Net Profit: 0.61%
+Gross Profit before fee: (BTC) 0.0016494219066314764
+Gross Profit before fee: 0.61%
+Net Profit after fee: (BTC) 0.0008397484986314762
+Net Profit after fee: 0.31%
+
+ETHBTC->MODETH->MODBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03389500',
+  bidQty: '0.50100000',
+  askPrice: '0.03390100',
+  askQty: '1.65100000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '1.65100000',
+  price: '0.03390100',
+  totalPriceBaseCurrency: 0.055970551,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: MODETH
+{ bidPrice: '0.00153600',
+  bidQty: '24.19000000',
+  askPrice: '0.00154000',
+  askQty: '840.84000000' }
+Second Leg Order
+{ buyingCurrency: 'MOD',
+  sellingCurrency: 'ETH',
+  symbol: 'MODETH',
+  orderType: 'BUY',
+  qty: 1072.077922077922,
+  price: '0.00154000',
+  totalPrice: '1.65100000' }
+Third Leg Order Book: MODBTC
+{ bidPrice: '0.00005240',
+  bidQty: '1206.94000000',
+  askPrice: '0.00005250',
+  askQty: '2723.55000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'MOD',
+  qty: 1072.077922077922,
+  price: '0.00005240',
+  totalPriceBaseCurrency: 0.05617688311688311,
+  orderType: 'SELL',
+  symbol: 'MODBTC' }
+Total Investment: (BTC) 0.055970551
+Gross Profit before fee: (BTC) 0.00020633211688311087
+Gross Profit before fee: 0.37%
+Net Profit after fee: (BTC) 0.00003842046388311088
+Net Profit after fee: 0.07%
+
+ETHBTC->STORJETH->STORJBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03390600',
+  bidQty: '0.53000000',
+  askPrice: '0.03391300',
+  askQty: '0.30000000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '0.30000000',
+  price: '0.03391300',
+  totalPriceBaseCurrency: 0.0101739,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: STORJETH
+{ bidPrice: '0.00124230',
+  bidQty: '688.00000000',
+  askPrice: '0.00124350',
+  askQty: '16.00000000' }
+Second Leg Order
+{ buyingCurrency: 'STORJ',
+  sellingCurrency: 'ETH',
+  symbol: 'STORJETH',
+  orderType: 'BUY',
+  qty: 241.25452352231602,
+  price: '0.00124350',
+  totalPrice: '0.30000000' }
+Third Leg Order Book: STORJBTC
+{ bidPrice: '0.00004230',
+  bidQty: '2072.00000000',
+  askPrice: '0.00004231',
+  askQty: '146.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'STORJ',
+  qty: 241.25452352231602,
+  price: '0.00004230',
+  totalPriceBaseCurrency: 0.010205066344993968,
+  orderType: 'SELL',
+  symbol: 'STORJBTC' }
+Total Investment: (BTC) 0.0101739
+Gross Profit before fee: (BTC) 0.000031166344993968295
+Gross Profit before fee: 0.31%
+Net Profit after fee: (BTC) 6.446449939682983e-7
+Net Profit after fee: 0.01%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00253940',
+  bidQty: '7.86000000',
+  askPrice: '0.00254160',
+  askQty: '0.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.02000000',
+  price: '0.00254160',
+  totalPriceBaseCurrency: 0.000050832000000000004,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.24030000',
+  bidQty: '213.20000000',
+  askPrice: '0.26000000',
+  askQty: '1429.10000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 0.07692307692307693,
+  price: '0.26000000',
+  totalPrice: '0.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00066696',
+  bidQty: '144.00000000',
+  askPrice: '0.00066914',
+  askQty: '16.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 0.07692307692307693,
+  price: '0.00066696',
+  totalPriceBaseCurrency: 0.000051304615384615385,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.000050832000000000004
+Gross Profit before fee: (BTC) 4.7261538461538155e-7
+Gross Profit before fee: 0.93%
+Net Profit after fee: (BTC) 3.201193846153816e-7
+Net Profit after fee: 0.63%
+
+ETHBTC->ZILETH->ZILBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03381500',
+  bidQty: '3.93000000',
+  askPrice: '0.03381600',
+  askQty: '4.97200000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '4.97200000',
+  price: '0.03381600',
+  totalPriceBaseCurrency: 0.168133152,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: ZILETH
+{ bidPrice: '0.00013752',
+  bidQty: '26020.00000000',
+  askPrice: '0.00013754',
+  askQty: '2190.00000000' }
+Second Leg Order
+{ buyingCurrency: 'ZIL',
+  sellingCurrency: 'ETH',
+  symbol: 'ZILETH',
+  orderType: 'BUY',
+  qty: 36149.48378653483,
+  price: '0.00013754',
+  totalPrice: '4.97200000' }
+Third Leg Order Book: ZILBTC
+{ bidPrice: '0.00000467',
+  bidQty: '45197.00000000',
+  askPrice: '0.00000468',
+  askQty: '164162.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ZIL',
+  qty: 36149.48378653483,
+  price: '0.00000467',
+  totalPriceBaseCurrency: 0.16881808928311767,
+  orderType: 'SELL',
+  symbol: 'ZILBTC' }
+Total Investment: (BTC) 0.168133152
+Gross Profit before fee: (BTC) 0.0006849372831176648
+Gross Profit before fee: 0.41%
+Net Profit after fee: (BTC) 0.00018053782711766476
+Net Profit after fee: 0.11%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252700',
+  bidQty: '14.62000000',
+  askPrice: '0.00252800',
+  askQty: '0.54000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.54000000',
+  price: '0.00252800',
+  totalPriceBaseCurrency: 0.00136512,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.18137000',
+  bidQty: '182.60000000',
+  askPrice: '0.18407000',
+  askQty: '21.00000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 2.9336665399032977,
+  price: '0.18407000',
+  totalPrice: '0.54000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00046699',
+  bidQty: '46.00000000',
+  askPrice: '0.00046757',
+  askQty: '1018.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 2.9336665399032977,
+  price: '0.00046699',
+  totalPriceBaseCurrency: 0.001369992937469441,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.00136512
+Gross Profit before fee: (BTC) 0.000004872937469441001
+Gross Profit before fee: 0.36%
+Net Profit after fee: (BTC) 7.775774694410007e-7
+Net Profit after fee: 0.06%
+
+BNBBTC->ICXBNB->ICXBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251910',
+  bidQty: '0.59000000',
+  askPrice: '0.00251920',
+  askQty: '21.08000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '21.08000000',
+  price: '0.00251920',
+  totalPriceBaseCurrency: 0.053104736,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ICXBNB
+{ bidPrice: '0.02376000',
+  bidQty: '560.30000000',
+  askPrice: '0.02385000',
+  askQty: '2.80000000' }
+Second Leg Order
+{ buyingCurrency: 'ICX',
+  sellingCurrency: 'BNB',
+  symbol: 'ICXBNB',
+  orderType: 'BUY',
+  qty: 883.8574423480084,
+  price: '0.02385000',
+  totalPrice: '21.08000000' }
+Third Leg Order Book: ICXBTC
+{ bidPrice: '0.00006030',
+  bidQty: '11582.35000000',
+  askPrice: '0.00006060',
+  askQty: '1304.20000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ICX',
+  qty: 883.8574423480084,
+  price: '0.00006030',
+  totalPriceBaseCurrency: 0.05329660377358491,
+  orderType: 'SELL',
+  symbol: 'ICXBTC' }
+Total Investment: (BTC) 0.053104736
+Gross Profit before fee: (BTC) 0.00019186777358490975
+Gross Profit before fee: 0.36%
+Net Profit after fee: (BTC) 0.00003255356558490977
+Net Profit after fee: 0.06%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251480',
+  bidQty: '26.40000000',
+  askPrice: '0.00251610',
+  askQty: '305.75000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '305.75000000',
+  price: '0.00251610',
+  totalPriceBaseCurrency: 0.769297575,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.14311000',
+  bidQty: '1166.60000000',
+  askPrice: '0.14619000',
+  askQty: '0.70000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 2091.4563239619674,
+  price: '0.14619000',
+  totalPrice: '305.75000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00036897',
+  bidQty: '2212.00000000',
+  askPrice: '0.00036898',
+  askQty: '333.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 2091.4563239619674,
+  price: '0.00036897',
+  totalPriceBaseCurrency: 0.7716846398522471,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.769297575
+Gross Profit before fee: (BTC) 0.002387064852247156
+Gross Profit before fee: 0.31%
+Net Profit after fee: (BTC) 0.00007917212724715627
+Net Profit after fee: 0.01%
+
+BNBBTC->THETABNB->THETABTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251090',
+  bidQty: '590.98000000',
+  askPrice: '0.00251270',
+  askQty: '0.24000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.24000000',
+  price: '0.00251270',
+  totalPriceBaseCurrency: 0.000603048,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: THETABNB
+{ bidPrice: '0.00959000',
+  bidQty: '631.60000000',
+  askPrice: '0.00961000',
+  askQty: '23.50000000' }
+Second Leg Order
+{ buyingCurrency: 'THETA',
+  sellingCurrency: 'BNB',
+  symbol: 'THETABNB',
+  orderType: 'BUY',
+  qty: 24.97398543184183,
+  price: '0.00961000',
+  totalPrice: '0.24000000' }
+Third Leg Order Book: THETABTC
+{ bidPrice: '0.00002423',
+  bidQty: '53.00000000',
+  askPrice: '0.00002426',
+  askQty: '2128.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'THETA',
+  qty: 24.97398543184183,
+  price: '0.00002423',
+  totalPriceBaseCurrency: 0.0006051196670135275,
+  orderType: 'SELL',
+  symbol: 'THETABTC' }
+Total Investment: (BTC) 0.000603048
+Gross Profit before fee: (BTC) 0.0000020716670135275013
+Gross Profit before fee: 0.34%
+Net Profit after fee: (BTC) 2.6252301352750133e-7
+Net Profit after fee: 0.04%
+
+BNBBTC->THETABNB->THETABTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251090',
+  bidQty: '590.98000000',
+  askPrice: '0.00251270',
+  askQty: '0.24000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.24000000',
+  price: '0.00251270',
+  totalPriceBaseCurrency: 0.000603048,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: THETABNB
+{ bidPrice: '0.00960000',
+  bidQty: '353.00000000',
+  askPrice: '0.00961000',
+  askQty: '23.50000000' }
+Second Leg Order
+{ buyingCurrency: 'THETA',
+  sellingCurrency: 'BNB',
+  symbol: 'THETABNB',
+  orderType: 'BUY',
+  qty: 24.97398543184183,
+  price: '0.00961000',
+  totalPrice: '0.24000000' }
+Third Leg Order Book: THETABTC
+{ bidPrice: '0.00002423',
+  bidQty: '53.00000000',
+  askPrice: '0.00002426',
+  askQty: '2128.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'THETA',
+  qty: 24.97398543184183,
+  price: '0.00002423',
+  totalPriceBaseCurrency: 0.0006051196670135275,
+  orderType: 'SELL',
+  symbol: 'THETABTC' }
+Total Investment: (BTC) 0.000603048
+Gross Profit before fee: (BTC) 0.0000020716670135275013
+Gross Profit before fee: 0.34%
+Net Profit after fee: (BTC) 2.6252301352750133e-7
+Net Profit after fee: 0.04%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251550',
+  bidQty: '49.64000000',
+  askPrice: '0.00251760',
+  askQty: '0.57000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.57000000',
+  price: '0.00251760',
+  totalPriceBaseCurrency: 0.001435032,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13892000',
+  bidQty: '962.80000000',
+  askPrice: '0.13929000',
+  askQty: '0.60000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 4.092181779022184,
+  price: '0.13929000',
+  totalPrice: '0.57000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00035209',
+  bidQty: '865.00000000',
+  askPrice: '0.00035271',
+  askQty: '661.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 4.092181779022184,
+  price: '0.00035209',
+  totalPriceBaseCurrency: 0.0014408162825759207,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.001435032
+Gross Profit before fee: (BTC) 0.000005784282575920776
+Gross Profit before fee: 0.40%
+Net Profit after fee: (BTC) 0.0000014791865759207768
+Net Profit after fee: 0.10%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251570',
+  bidQty: '39.12000000',
+  askPrice: '0.00251760',
+  askQty: '0.57000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.57000000',
+  price: '0.00251760',
+  totalPriceBaseCurrency: 0.001435032,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13894000',
+  bidQty: '443.40000000',
+  askPrice: '0.13929000',
+  askQty: '0.60000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 4.092181779022184,
+  price: '0.13929000',
+  totalPrice: '0.57000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00035209',
+  bidQty: '593.00000000',
+  askPrice: '0.00035269',
+  askQty: '2025.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 4.092181779022184,
+  price: '0.00035209',
+  totalPriceBaseCurrency: 0.0014408162825759207,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.001435032
+Gross Profit before fee: (BTC) 0.000005784282575920776
+Gross Profit before fee: 0.40%
+Net Profit after fee: (BTC) 0.0000014791865759207768
+Net Profit after fee: 0.10%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251580',
+  bidQty: '113.77000000',
+  askPrice: '0.00251760',
+  askQty: '0.57000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.57000000',
+  price: '0.00251760',
+  totalPriceBaseCurrency: 0.001435032,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13895000',
+  bidQty: '443.40000000',
+  askPrice: '0.13929000',
+  askQty: '0.60000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 4.092181779022184,
+  price: '0.13929000',
+  totalPrice: '0.57000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00035209',
+  bidQty: '229.00000000',
+  askPrice: '0.00035270',
+  askQty: '868.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 4.092181779022184,
+  price: '0.00035209',
+  totalPriceBaseCurrency: 0.0014408162825759207,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.001435032
+Gross Profit before fee: (BTC) 0.000005784282575920776
+Gross Profit before fee: 0.40%
+Net Profit after fee: (BTC) 0.0000014791865759207768
+Net Profit after fee: 0.10%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251580',
+  bidQty: '113.77000000',
+  askPrice: '0.00251760',
+  askQty: '0.57000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.57000000',
+  price: '0.00251760',
+  totalPriceBaseCurrency: 0.001435032,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13895000',
+  bidQty: '443.40000000',
+  askPrice: '0.13929000',
+  askQty: '0.60000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 4.092181779022184,
+  price: '0.13929000',
+  totalPrice: '0.57000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00035209',
+  bidQty: '229.00000000',
+  askPrice: '0.00035270',
+  askQty: '645.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 4.092181779022184,
+  price: '0.00035209',
+  totalPriceBaseCurrency: 0.0014408162825759207,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.001435032
+Gross Profit before fee: (BTC) 0.000005784282575920776
+Gross Profit before fee: 0.40%
+Net Profit after fee: (BTC) 0.0000014791865759207768
+Net Profit after fee: 0.10%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251730',
+  bidQty: '103.54000000',
+  askPrice: '0.00251790',
+  askQty: '36.80000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '36.80000000',
+  price: '0.00251790',
+  totalPriceBaseCurrency: 0.09265871999999999,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13896000',
+  bidQty: '525.00000000',
+  askPrice: '0.13929000',
+  askQty: '0.60000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 264.19699906669535,
+  price: '0.13929000',
+  totalPrice: '36.80000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00035200',
+  bidQty: '777.00000000',
+  askPrice: '0.00035272',
+  askQty: '1122.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 264.19699906669535,
+  price: '0.00035200',
+  totalPriceBaseCurrency: 0.09299734367147676,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.09265871999999999
+Gross Profit before fee: (BTC) 0.0003386236714767732
+Gross Profit before fee: 0.37%
+Net Profit after fee: (BTC) 0.000060647511476773265
+Net Profit after fee: 0.07%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251880',
+  bidQty: '0.42000000',
+  askPrice: '0.00251890',
+  askQty: '0.57000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.57000000',
+  price: '0.00251890',
+  totalPriceBaseCurrency: 0.001435773,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13816000',
+  bidQty: '273.00000000',
+  askPrice: '0.13817000',
+  askQty: '1983.70000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 4.125352826228559,
+  price: '0.13817000',
+  totalPrice: '0.57000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00035166',
+  bidQty: '31.00000000',
+  askPrice: '0.00035427',
+  askQty: '109.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 4.125352826228559,
+  price: '0.00035166',
+  totalPriceBaseCurrency: 0.001450721574871535,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.001435773
+Gross Profit before fee: (BTC) 0.000014948574871535012
+Gross Profit before fee: 1.04%
+Net Profit after fee: (BTC) 0.000010641255871535013
+Net Profit after fee: 0.74%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252440',
+  bidQty: '25.80000000',
+  askPrice: '0.00252540',
+  askQty: '100.00000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '100.00000000',
+  price: '0.00252540',
+  totalPriceBaseCurrency: 0.25254,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13040000',
+  bidQty: '474.30000000',
+  askPrice: '0.13172000',
+  askQty: '0.70000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 759.1861524445794,
+  price: '0.13172000',
+  totalPrice: '100.00000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00033539',
+  bidQty: '3248.00000000',
+  askPrice: '0.00033780',
+  askQty: '157.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 759.1861524445794,
+  price: '0.00033539',
+  totalPriceBaseCurrency: 0.2546234436683875,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.25254
+Gross Profit before fee: (BTC) 0.00208344366838753
+Gross Profit before fee: 0.82%
+Net Profit after fee: (BTC) 0.0013258236683875305
+Net Profit after fee: 0.52%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252440',
+  bidQty: '25.80000000',
+  askPrice: '0.00252540',
+  askQty: '100.00000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '100.00000000',
+  price: '0.00252540',
+  totalPriceBaseCurrency: 0.25254,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.13044000',
+  bidQty: '613.70000000',
+  askPrice: '0.13172000',
+  askQty: '0.70000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 759.1861524445794,
+  price: '0.13172000',
+  totalPrice: '100.00000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00033540',
+  bidQty: '1712.00000000',
+  askPrice: '0.00033725',
+  askQty: '178.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 759.1861524445794,
+  price: '0.00033540',
+  totalPriceBaseCurrency: 0.25463103552991195,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.25254
+Gross Profit before fee: (BTC) 0.0020910355299119665
+Gross Profit before fee: 0.83%
+Net Profit after fee: (BTC) 0.0013334155299119664
+Net Profit after fee: 0.53%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252360',
+  bidQty: '67.08000000',
+  askPrice: '0.00252370',
+  askQty: '70.85000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '70.85000000',
+  price: '0.00252370',
+  totalPriceBaseCurrency: 0.17880414499999997,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.12885000',
+  bidQty: '1511.70000000',
+  askPrice: '0.13045000',
+  askQty: '0.30000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 543.1199693369106,
+  price: '0.13045000',
+  totalPrice: '70.85000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00033068',
+  bidQty: '1712.00000000',
+  askPrice: '0.00033199',
+  askQty: '640.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 543.1199693369106,
+  price: '0.00033068',
+  totalPriceBaseCurrency: 0.1795989114603296,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.17880414499999997
+Gross Profit before fee: (BTC) 0.0007947664603296378
+Gross Profit before fee: 0.44%
+Net Profit after fee: (BTC) 0.0002583540253296379
+Net Profit after fee: 0.14%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252360',
+  bidQty: '67.08000000',
+  askPrice: '0.00252370',
+  askQty: '70.85000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '70.85000000',
+  price: '0.00252370',
+  totalPriceBaseCurrency: 0.17880414499999997,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.12888000',
+  bidQty: '472.60000000',
+  askPrice: '0.13045000',
+  askQty: '0.30000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 543.1199693369106,
+  price: '0.13045000',
+  totalPrice: '70.85000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00033068',
+  bidQty: '2257.00000000',
+  askPrice: '0.00033198',
+  askQty: '151.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 543.1199693369106,
+  price: '0.00033068',
+  totalPriceBaseCurrency: 0.1795989114603296,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.17880414499999997
+Gross Profit before fee: (BTC) 0.0007947664603296378
+Gross Profit before fee: 0.44%
+Net Profit after fee: (BTC) 0.0002583540253296379
+Net Profit after fee: 0.14%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252360',
+  bidQty: '67.08000000',
+  askPrice: '0.00252370',
+  askQty: '70.85000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '70.85000000',
+  price: '0.00252370',
+  totalPriceBaseCurrency: 0.17880414499999997,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.12891000',
+  bidQty: '475.80000000',
+  askPrice: '0.13045000',
+  askQty: '0.30000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 543.1199693369106,
+  price: '0.13045000',
+  totalPrice: '70.85000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00033068',
+  bidQty: '2257.00000000',
+  askPrice: '0.00033198',
+  askQty: '151.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 543.1199693369106,
+  price: '0.00033068',
+  totalPriceBaseCurrency: 0.1795989114603296,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.17880414499999997
+Gross Profit before fee: (BTC) 0.0007947664603296378
+Gross Profit before fee: 0.44%
+Net Profit after fee: (BTC) 0.0002583540253296379
+Net Profit after fee: 0.14%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252360',
+  bidQty: '67.08000000',
+  askPrice: '0.00252370',
+  askQty: '70.85000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '70.85000000',
+  price: '0.00252370',
+  totalPriceBaseCurrency: 0.17880414499999997,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.12888000',
+  bidQty: '4045.20000000',
+  askPrice: '0.13045000',
+  askQty: '0.30000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 543.1199693369106,
+  price: '0.13045000',
+  totalPrice: '70.85000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00033068',
+  bidQty: '2204.00000000',
+  askPrice: '0.00033197',
+  askQty: '640.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 543.1199693369106,
+  price: '0.00033068',
+  totalPriceBaseCurrency: 0.1795989114603296,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.17880414499999997
+Gross Profit before fee: (BTC) 0.0007947664603296378
+Gross Profit before fee: 0.44%
+Net Profit after fee: (BTC) 0.0002583540253296379
+Net Profit after fee: 0.14%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00252360',
+  bidQty: '67.08000000',
+  askPrice: '0.00252370',
+  askQty: '70.85000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '70.85000000',
+  price: '0.00252370',
+  totalPriceBaseCurrency: 0.17880414499999997,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.12889000',
+  bidQty: '428.00000000',
+  askPrice: '0.13045000',
+  askQty: '0.30000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 543.1199693369106,
+  price: '0.13045000',
+  totalPrice: '70.85000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00033068',
+  bidQty: '2204.00000000',
+  askPrice: '0.00033120',
+  askQty: '48.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 543.1199693369106,
+  price: '0.00033068',
+  totalPriceBaseCurrency: 0.1795989114603296,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.17880414499999997
+Gross Profit before fee: (BTC) 0.0007947664603296378
+Gross Profit before fee: 0.44%
+Net Profit after fee: (BTC) 0.0002583540253296379
+Net Profit after fee: 0.14%
+
+ETHBTC->KNCETH->KNCBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03384200',
+  bidQty: '0.00100000',
+  askPrice: '0.03385000',
+  askQty: '0.97000000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '0.97000000',
+  price: '0.03385000',
+  totalPriceBaseCurrency: 0.032834499999999996,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: KNCETH
+{ bidPrice: '0.00118660',
+  bidQty: '16222.00000000',
+  askPrice: '0.00118990',
+  askQty: '27.00000000' }
+Second Leg Order
+{ buyingCurrency: 'KNC',
+  sellingCurrency: 'ETH',
+  symbol: 'KNCETH',
+  orderType: 'BUY',
+  qty: 815.1945541642154,
+  price: '0.00118990',
+  totalPrice: '0.97000000' }
+Third Leg Order Book: KNCBTC
+{ bidPrice: '0.00004044',
+  bidQty: '21964.00000000',
+  askPrice: '0.00004046',
+  askQty: '1396.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'KNC',
+  qty: 815.1945541642154,
+  price: '0.00004044',
+  totalPriceBaseCurrency: 0.032966467770400874,
+  orderType: 'SELL',
+  symbol: 'KNCBTC' }
+Total Investment: (BTC) 0.032834499999999996
+Gross Profit before fee: (BTC) 0.0001319677704008787
+Gross Profit before fee: 0.40%
+Net Profit after fee: (BTC) 0.000033464270400878714
+Net Profit after fee: 0.10%
+
+ETHBTC->KNCETH->KNCBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03383800',
+  bidQty: '6.70000000',
+  askPrice: '0.03384400',
+  askQty: '0.00100000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '0.00100000',
+  price: '0.03384400',
+  totalPriceBaseCurrency: 0.000033843999999999996,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: KNCETH
+{ bidPrice: '0.00122130',
+  bidQty: '2922.00000000',
+  askPrice: '0.00122860',
+  askQty: '72.00000000' }
+Second Leg Order
+{ buyingCurrency: 'KNC',
+  sellingCurrency: 'ETH',
+  symbol: 'KNCETH',
+  orderType: 'BUY',
+  qty: 0.8139345596614032,
+  price: '0.00122860',
+  totalPrice: '0.00100000' }
+Third Leg Order Book: KNCBTC
+{ bidPrice: '0.00004183',
+  bidQty: '261.00000000',
+  askPrice: '0.00004190',
+  askQty: '2888.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'KNC',
+  qty: 0.8139345596614032,
+  price: '0.00004183',
+  totalPriceBaseCurrency: 0.00003404688263063649,
+  orderType: 'SELL',
+  symbol: 'KNCBTC' }
+Total Investment: (BTC) 0.000033843999999999996
+Gross Profit before fee: (BTC) 2.0288263063649538e-7
+Gross Profit before fee: 0.60%
+Net Profit after fee: (BTC) 1.0135063063649539e-7
+Net Profit after fee: 0.30%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250330',
+  bidQty: '122.56000000',
+  askPrice: '0.00250460',
+  askQty: '19.05000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '19.05000000',
+  price: '0.00250460',
+  totalPriceBaseCurrency: 0.047712630000000006,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.12331000',
+  bidQty: '444.90000000',
+  askPrice: '0.12370000',
+  askQty: '315.70000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 154.0016168148747,
+  price: '0.12370000',
+  totalPrice: '19.05000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00031078',
+  bidQty: '335.00000000',
+  askPrice: '0.00031093',
+  askQty: '3318.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 154.0016168148747,
+  price: '0.00031078',
+  totalPriceBaseCurrency: 0.04786062247372675,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.047712630000000006
+Gross Profit before fee: (BTC) 0.0001479924737267449
+Gross Profit before fee: 0.31%
+Net Profit after fee: (BTC) 0.000004854583726744905
+Net Profit after fee: 0.01%
+
+BNBBTC->LOOMBNB->LOOMBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250060',
+  bidQty: '39.49000000',
+  askPrice: '0.00250190',
+  askQty: '4.00000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '4.00000000',
+  price: '0.00250190',
+  totalPriceBaseCurrency: 0.0100076,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: LOOMBNB
+{ bidPrice: '0.00456000',
+  bidQty: '2612.00000000',
+  askPrice: '0.00457000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'LOOM',
+  sellingCurrency: 'BNB',
+  symbol: 'LOOMBNB',
+  orderType: 'BUY',
+  qty: 875.27352297593,
+  price: '0.00457000',
+  totalPrice: '4.00000000' }
+Third Leg Order Book: LOOMBTC
+{ bidPrice: '0.00001148',
+  bidQty: '1902.00000000',
+  askPrice: '0.00001149',
+  askQty: '10736.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'LOOM',
+  qty: 875.27352297593,
+  price: '0.00001148',
+  totalPriceBaseCurrency: 0.010048140043763676,
+  orderType: 'SELL',
+  symbol: 'LOOMBTC' }
+Total Investment: (BTC) 0.0100076
+Gross Profit before fee: (BTC) 0.00004054004376367534
+Gross Profit before fee: 0.41%
+Net Profit after fee: (BTC) 0.000010517243763675346
+Net Profit after fee: 0.11%
+
+ETHBTC->KNCETH->KNCBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03383900',
+  bidQty: '1.09900000',
+  askPrice: '0.03385400',
+  askQty: '0.11700000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '0.11700000',
+  price: '0.03385400',
+  totalPriceBaseCurrency: 0.003960918000000001,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: KNCETH
+{ bidPrice: '0.00115900',
+  bidQty: '3247.00000000',
+  askPrice: '0.00116550',
+  askQty: '1175.00000000' }
+Second Leg Order
+{ buyingCurrency: 'KNC',
+  sellingCurrency: 'ETH',
+  symbol: 'KNCETH',
+  orderType: 'BUY',
+  qty: 100.38610038610038,
+  price: '0.00116550',
+  totalPrice: '0.11700000' }
+Third Leg Order Book: KNCBTC
+{ bidPrice: '0.00003962',
+  bidQty: '1325.00000000',
+  askPrice: '0.00003966',
+  askQty: '1859.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'KNC',
+  qty: 100.38610038610038,
+  price: '0.00003962',
+  totalPriceBaseCurrency: 0.0039772972972972965,
+  orderType: 'SELL',
+  symbol: 'KNCBTC' }
+Total Investment: (BTC) 0.003960918000000001
+Gross Profit before fee: (BTC) 0.000016379297297295682
+Gross Profit before fee: 0.41%
+Net Profit after fee: (BTC) 0.000004496543297295679
+Net Profit after fee: 0.11%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250400',
+  bidQty: '0.65000000',
+  askPrice: '0.00250410',
+  askQty: '12.80000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '12.80000000',
+  price: '0.00250410',
+  totalPriceBaseCurrency: 0.03205248,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.10961000',
+  bidQty: '565.50000000',
+  askPrice: '0.11099000',
+  askQty: '0.80000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 115.32570501847013,
+  price: '0.11099000',
+  totalPrice: '12.80000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028002',
+  bidQty: '492.00000000',
+  askPrice: '0.00028191',
+  askQty: '521.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 115.32570501847013,
+  price: '0.00028002',
+  totalPriceBaseCurrency: 0.03229350391927201,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.03205248
+Gross Profit before fee: (BTC) 0.00024102391927200567
+Gross Profit before fee: 0.75%
+Net Profit after fee: (BTC) 0.00014486647927200566
+Net Profit after fee: 0.45%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '0.07000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027786',
+  bidQty: '197.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027786',
+  totalPriceBaseCurrency: 0.0010898224919999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.000003432491999999813
+Gross Profit before fee: 0.32%
+Net Profit after fee: (BTC) 1.7332199999981304e-7
+Net Profit after fee: 0.02%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '0.07000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027788',
+  bidQty: '197.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027788',
+  totalPriceBaseCurrency: 0.001089900936,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035109359999999177
+Gross Profit before fee: 0.32%
+Net Profit after fee: (BTC) 2.5176599999991776e-7
+Net Profit after fee: 0.02%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '9.25000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '197.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.0010899793799999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035893799999998054
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 3.302099999998054e-7
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206400',
+  bidQty: '9.86000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '197.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.0010899793799999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035893799999998054
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 3.302099999998054e-7
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206400',
+  bidQty: '9.86000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.0010899793799999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035893799999998054
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 3.302099999998054e-7
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206400',
+  bidQty: '9.86000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.0010899793799999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035893799999998054
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 3.302099999998054e-7
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206200',
+  bidQty: '6.25000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.0010899793799999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035893799999998054
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 3.302099999998054e-7
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206400',
+  bidQty: '5.24000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027810',
+  askQty: '1500.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.0010899793799999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035893799999998054
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 3.302099999998054e-7
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206400',
+  bidQty: '5.24000000',
+  askPrice: '0.01207100',
+  askQty: '0.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.00108639,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 3.9221999999999997,
+  price: '43.58000000',
+  totalPrice: '0.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027810',
+  askQty: '1627.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 3.9221999999999997,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.0010899793799999998,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00108639
+Gross Profit before fee: (BTC) 0.0000035893799999998054
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 3.302099999998054e-7
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206400',
+  bidQty: '5.24000000',
+  askPrice: '0.01207100',
+  askQty: '5.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '5.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.06144139,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 221.82219999999998,
+  price: '43.58000000',
+  totalPrice: '5.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027810',
+  askQty: '1627.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 221.82219999999998,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.06164438937999999,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.06144139
+Gross Profit before fee: (BTC) 0.00020299937999999212
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 0.00001867520999999213
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '3.56000000',
+  askPrice: '0.01207100',
+  askQty: '5.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '5.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.06144139,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 221.82219999999998,
+  price: '43.58000000',
+  totalPrice: '5.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027810',
+  askQty: '1500.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 221.82219999999998,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.06164438937999999,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.06144139
+Gross Profit before fee: (BTC) 0.00020299937999999212
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 0.00001867520999999213
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '3.56000000',
+  askPrice: '0.01207100',
+  askQty: '5.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '5.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.06144139,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 221.82219999999998,
+  price: '43.58000000',
+  totalPrice: '5.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027810',
+  askQty: '1500.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 221.82219999999998,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.06164438937999999,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.06144139
+Gross Profit before fee: (BTC) 0.00020299937999999212
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 0.00001867520999999213
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '3.56000000',
+  askPrice: '0.01207100',
+  askQty: '5.09000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '5.09000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.06144139,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 221.82219999999998,
+  price: '43.58000000',
+  totalPrice: '5.09000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '683.00000000',
+  askPrice: '0.00027809',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 221.82219999999998,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.06164438937999999,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.06144139
+Gross Profit before fee: (BTC) 0.00020299937999999212
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 0.00001867520999999213
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '5.59000000',
+  askPrice: '0.01207100',
+  askQty: '2.99000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '2.99000000',
+  price: '0.01207100',
+  totalPriceBaseCurrency: 0.036092290000000006,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 130.3042,
+  price: '43.58000000',
+  totalPrice: '2.99000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027791',
+  bidQty: '147.00000000',
+  askPrice: '0.00027806',
+  askQty: '2429.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 130.3042,
+  price: '0.00027791',
+  totalPriceBaseCurrency: 0.036212840222,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.036092290000000006
+Gross Profit before fee: (BTC) 0.00012055022199999182
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 0.00001227335199999181
+Net Profit after fee: 0.03%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206400',
+  bidQty: '0.16000000',
+  askPrice: '0.01207400',
+  askQty: '0.23000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '0.23000000',
+  price: '0.01207400',
+  totalPriceBaseCurrency: 0.00277702,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 10.0234,
+  price: '43.58000000',
+  totalPrice: '0.23000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '197.00000000',
+  askPrice: '0.00027803',
+  askQty: '972.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 10.0234,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.00278550286,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.00277702
+Gross Profit before fee: (BTC) 0.000008482860000000227
+Gross Profit before fee: 0.31%
+Net Profit after fee: (BTC) 1.5180000000022838e-7
+Net Profit after fee: 0.01%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01207100',
+  bidQty: '0.71000000',
+  askPrice: '0.01207300',
+  askQty: '2.12000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '2.12000000',
+  price: '0.01207300',
+  totalPriceBaseCurrency: 0.02559476,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 92.3896,
+  price: '43.58000000',
+  totalPrice: '2.12000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '197.00000000',
+  askPrice: '0.00027803',
+  askQty: '972.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 92.3896,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.02567506984,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.02559476
+Gross Profit before fee: (BTC) 0.00008030983999999727
+Gross Profit before fee: 0.31%
+Net Profit after fee: (BTC) 0.0000035255599999972767
+Net Profit after fee: 0.01%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01207100',
+  bidQty: '0.71000000',
+  askPrice: '0.01207300',
+  askQty: '2.12000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '2.12000000',
+  price: '0.01207300',
+  totalPriceBaseCurrency: 0.02559476,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 92.3896,
+  price: '43.58000000',
+  totalPrice: '2.12000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '197.00000000',
+  askPrice: '0.00027803',
+  askQty: '972.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 92.3896,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.02567506984,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.02559476
+Gross Profit before fee: (BTC) 0.00008030983999999727
+Gross Profit before fee: 0.31%
+Net Profit after fee: (BTC) 0.0000035255599999972767
+Net Profit after fee: 0.01%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01207100',
+  bidQty: '0.71000000',
+  askPrice: '0.01207300',
+  askQty: '2.12000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '2.12000000',
+  price: '0.01207300',
+  totalPriceBaseCurrency: 0.02559476,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '169.69465000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 92.3896,
+  price: '43.58000000',
+  totalPrice: '2.12000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027790',
+  bidQty: '197.00000000',
+  askPrice: '0.00027806',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 92.3896,
+  price: '0.00027790',
+  totalPriceBaseCurrency: 0.02567506984,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.02559476
+Gross Profit before fee: (BTC) 0.00008030983999999727
+Gross Profit before fee: 0.31%
+Net Profit after fee: (BTC) 0.0000035255599999972767
+Net Profit after fee: 0.01%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '0.16000000',
+  askPrice: '0.01206600',
+  askQty: '2.10000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '2.10000000',
+  price: '0.01206600',
+  totalPriceBaseCurrency: 0.025338600000000003,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '335.02118000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 91.518,
+  price: '43.58000000',
+  totalPrice: '2.10000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027785',
+  bidQty: '1486.00000000',
+  askPrice: '0.00027803',
+  askQty: '324.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 91.518,
+  price: '0.00027785',
+  totalPriceBaseCurrency: 0.0254282763,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.025338600000000003
+Gross Profit before fee: (BTC) 0.0000896762999999974
+Gross Profit before fee: 0.35%
+Net Profit after fee: (BTC) 0.000013660499999997404
+Net Profit after fee: 0.05%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '0.16000000',
+  askPrice: '0.01206600',
+  askQty: '2.10000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '2.10000000',
+  price: '0.01206600',
+  totalPriceBaseCurrency: 0.025338600000000003,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '335.02118000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 91.518,
+  price: '43.58000000',
+  totalPrice: '2.10000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027785',
+  bidQty: '1709.00000000',
+  askPrice: '0.00027803',
+  askQty: '192.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 91.518,
+  price: '0.00027785',
+  totalPriceBaseCurrency: 0.0254282763,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.025338600000000003
+Gross Profit before fee: (BTC) 0.0000896762999999974
+Gross Profit before fee: 0.35%
+Net Profit after fee: (BTC) 0.000013660499999997404
+Net Profit after fee: 0.05%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '0.16000000',
+  askPrice: '0.01206600',
+  askQty: '2.10000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '2.10000000',
+  price: '0.01206600',
+  totalPriceBaseCurrency: 0.025338600000000003,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '335.02118000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 91.518,
+  price: '43.58000000',
+  totalPrice: '2.10000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027785',
+  bidQty: '1709.00000000',
+  askPrice: '0.00027803',
+  askQty: '192.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 91.518,
+  price: '0.00027785',
+  totalPriceBaseCurrency: 0.0254282763,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.025338600000000003
+Gross Profit before fee: (BTC) 0.0000896762999999974
+Gross Profit before fee: 0.35%
+Net Profit after fee: (BTC) 0.000013660499999997404
+Net Profit after fee: 0.05%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '0.16000000',
+  askPrice: '0.01206600',
+  askQty: '3.73000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '3.73000000',
+  price: '0.01206600',
+  totalPriceBaseCurrency: 0.04500618,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '335.02118000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 162.55339999999998,
+  price: '43.58000000',
+  totalPrice: '3.73000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027786',
+  bidQty: '197.00000000',
+  askPrice: '0.00027815',
+  askQty: '448.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 162.55339999999998,
+  price: '0.00027786',
+  totalPriceBaseCurrency: 0.045167087723999993,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.04500618
+Gross Profit before fee: (BTC) 0.0001609077239999937
+Gross Profit before fee: 0.36%
+Net Profit after fee: (BTC) 0.000025889183999993714
+Net Profit after fee: 0.06%
+
+LTCBTC->LTCTUSD->TUSDBTC
+First Leg Order Book: LTCBTC
+{ bidPrice: '0.01206300',
+  bidQty: '0.16000000',
+  askPrice: '0.01206600',
+  askQty: '3.73000000' }
+First Leg Order
+{ buyingCurrency: 'LTC',
+  sellingCurrency: 'BTC',
+  qty: '3.73000000',
+  price: '0.01206600',
+  totalPriceBaseCurrency: 0.04500618,
+  orderType: 'BUY',
+  symbol: 'LTCBTC' }
+Second Leg Order Book: LTCTUSD
+{ bidPrice: '43.58000000',
+  bidQty: '0.00494000',
+  askPrice: '43.59000000',
+  askQty: '335.02118000' }
+Second Leg Order
+{ buyingCurrency: 'TUSD',
+  sellingCurrency: 'LTC',
+  symbol: 'LTCTUSD',
+  orderType: 'SELL',
+  qty: 162.55339999999998,
+  price: '43.58000000',
+  totalPrice: '3.73000000' }
+Third Leg Order Book: TUSDBTC
+{ bidPrice: '0.00027788',
+  bidQty: '197.00000000',
+  askPrice: '0.00027814',
+  askQty: '127.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'TUSD',
+  qty: 162.55339999999998,
+  price: '0.00027788',
+  totalPriceBaseCurrency: 0.04517033879199999,
+  orderType: 'SELL',
+  symbol: 'TUSDBTC' }
+Total Investment: (BTC) 0.04500618
+Gross Profit before fee: (BTC) 0.00016415879199999095
+Gross Profit before fee: 0.36%
+Net Profit after fee: (BTC) 0.00002914025199999097
+Net Profit after fee: 0.06%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250770',
+  bidQty: '0.37000000',
+  askPrice: '0.00250900',
+  askQty: '0.58000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.58000000',
+  price: '0.00250900',
+  totalPriceBaseCurrency: 0.00145522,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11755000',
+  bidQty: '69.80000000',
+  askPrice: '0.11790000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 4.919423240033926,
+  price: '0.11790000',
+  totalPrice: '0.58000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029809',
+  bidQty: '95.00000000',
+  askPrice: '0.00029827',
+  askQty: '1330.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 4.919423240033926,
+  price: '0.00029809',
+  totalPriceBaseCurrency: 0.001466430873621713,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.00145522
+Gross Profit before fee: (BTC) 0.000011210873621713162
+Gross Profit before fee: 0.77%
+Net Profit after fee: (BTC) 0.000006845213621713162
+Net Profit after fee: 0.47%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250770',
+  bidQty: '0.37000000',
+  askPrice: '0.00250900',
+  askQty: '30.16000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '30.16000000',
+  price: '0.00250900',
+  totalPriceBaseCurrency: 0.07567143999999999,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11762000',
+  bidQty: '524.00000000',
+  askPrice: '0.11790000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 255.81000848176419,
+  price: '0.11790000',
+  totalPrice: '30.16000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029747',
+  bidQty: '312.00000000',
+  askPrice: '0.00029824',
+  askQty: '214.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 255.81000848176419,
+  price: '0.00029747',
+  totalPriceBaseCurrency: 0.07609580322307039,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.07567143999999999
+Gross Profit before fee: (BTC) 0.00042436322307039254
+Gross Profit before fee: 0.56%
+Net Profit after fee: (BTC) 0.00019734890307039255
+Net Profit after fee: 0.26%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250770',
+  bidQty: '0.37000000',
+  askPrice: '0.00250900',
+  askQty: '30.16000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '30.16000000',
+  price: '0.00250900',
+  totalPriceBaseCurrency: 0.07567143999999999,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11763000',
+  bidQty: '186.10000000',
+  askPrice: '0.11790000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 255.81000848176419,
+  price: '0.11790000',
+  totalPrice: '30.16000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029747',
+  bidQty: '312.00000000',
+  askPrice: '0.00029824',
+  askQty: '321.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 255.81000848176419,
+  price: '0.00029747',
+  totalPriceBaseCurrency: 0.07609580322307039,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.07567143999999999
+Gross Profit before fee: (BTC) 0.00042436322307039254
+Gross Profit before fee: 0.56%
+Net Profit after fee: (BTC) 0.00019734890307039255
+Net Profit after fee: 0.26%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250770',
+  bidQty: '0.37000000',
+  askPrice: '0.00250890',
+  askQty: '16.45000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '16.45000000',
+  price: '0.00250890',
+  totalPriceBaseCurrency: 0.041271405,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11780000',
+  bidQty: '253.60000000',
+  askPrice: '0.11790000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 139.5250212044105,
+  price: '0.11790000',
+  totalPrice: '16.45000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029759',
+  bidQty: '193.00000000',
+  askPrice: '0.00029821',
+  askQty: '405.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 139.5250212044105,
+  price: '0.00029759',
+  totalPriceBaseCurrency: 0.04152125106022052,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.041271405
+Gross Profit before fee: (BTC) 0.000249846060220521
+Gross Profit before fee: 0.61%
+Net Profit after fee: (BTC) 0.00012603184522052104
+Net Profit after fee: 0.31%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250710',
+  bidQty: '89.71000000',
+  askPrice: '0.00250770',
+  askQty: '0.11000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.11000000',
+  price: '0.00250770',
+  totalPriceBaseCurrency: 0.00027584699999999996,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11781000',
+  bidQty: '523.10000000',
+  askPrice: '0.11790000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 0.9329940627650551,
+  price: '0.11790000',
+  totalPrice: '0.11000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029760',
+  bidQty: '107.00000000',
+  askPrice: '0.00029824',
+  askQty: '285.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 0.9329940627650551,
+  price: '0.00029760',
+  totalPriceBaseCurrency: 0.00027765903307888043,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.00027584699999999996
+Gross Profit before fee: (BTC) 0.000001812033078880471
+Gross Profit before fee: 0.66%
+Net Profit after fee: (BTC) 9.844920788804712e-7
+Net Profit after fee: 0.36%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250900',
+  bidQty: '90.88000000',
+  askPrice: '0.00251000',
+  askQty: '0.66000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.66000000',
+  price: '0.00251000',
+  totalPriceBaseCurrency: 0.0016566,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11401000',
+  bidQty: '316.40000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 5.769230769230769,
+  price: '0.11440000',
+  totalPrice: '0.66000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028847',
+  bidQty: '643.00000000',
+  askPrice: '0.00028900',
+  askQty: '4826.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 5.769230769230769,
+  price: '0.00028847',
+  totalPriceBaseCurrency: 0.00166425,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0016566
+Gross Profit before fee: (BTC) 0.000007649999999999888
+Gross Profit before fee: 0.46%
+Net Profit after fee: (BTC) 0.000002680199999999887
+Net Profit after fee: 0.16%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250890',
+  bidQty: '112.78000000',
+  askPrice: '0.00251000',
+  askQty: '0.66000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.66000000',
+  price: '0.00251000',
+  totalPriceBaseCurrency: 0.0016566,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11406000',
+  bidQty: '276.70000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 5.769230769230769,
+  price: '0.11440000',
+  totalPrice: '0.66000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028957',
+  bidQty: '196.00000000',
+  askPrice: '0.00029003',
+  askQty: '140.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 5.769230769230769,
+  price: '0.00028957',
+  totalPriceBaseCurrency: 0.0016705961538461538,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0016566
+Gross Profit before fee: (BTC) 0.000013996153846153759
+Gross Profit before fee: 0.84%
+Net Profit after fee: (BTC) 0.000009026353846153758
+Net Profit after fee: 0.54%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250890',
+  bidQty: '112.78000000',
+  askPrice: '0.00251000',
+  askQty: '0.66000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.66000000',
+  price: '0.00251000',
+  totalPriceBaseCurrency: 0.0016566,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11406000',
+  bidQty: '276.70000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 5.769230769230769,
+  price: '0.11440000',
+  totalPrice: '0.66000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028852',
+  bidQty: '138.00000000',
+  askPrice: '0.00028939',
+  askQty: '156.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 5.769230769230769,
+  price: '0.00028852',
+  totalPriceBaseCurrency: 0.0016645384615384617,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0016566
+Gross Profit before fee: (BTC) 0.000007938461538461615
+Gross Profit before fee: 0.48%
+Net Profit after fee: (BTC) 0.000002968661538461615
+Net Profit after fee: 0.18%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250950',
+  bidQty: '209.26000000',
+  askPrice: '0.00251000',
+  askQty: '0.66000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.66000000',
+  price: '0.00251000',
+  totalPriceBaseCurrency: 0.0016566,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11406000',
+  bidQty: '276.70000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 5.769230769230769,
+  price: '0.11440000',
+  totalPrice: '0.66000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028853',
+  bidQty: '321.00000000',
+  askPrice: '0.00028938',
+  askQty: '383.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 5.769230769230769,
+  price: '0.00028853',
+  totalPriceBaseCurrency: 0.0016645961538461539,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0016566
+Gross Profit before fee: (BTC) 0.00000799615384615383
+Gross Profit before fee: 0.48%
+Net Profit after fee: (BTC) 0.00000302635384615383
+Net Profit after fee: 0.18%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250970',
+  bidQty: '109.38000000',
+  askPrice: '0.00251000',
+  askQty: '0.66000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.66000000',
+  price: '0.00251000',
+  totalPriceBaseCurrency: 0.0016566,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11406000',
+  bidQty: '276.70000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 5.769230769230769,
+  price: '0.11440000',
+  totalPrice: '0.66000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028853',
+  bidQty: '368.00000000',
+  askPrice: '0.00028938',
+  askQty: '383.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 5.769230769230769,
+  price: '0.00028853',
+  totalPriceBaseCurrency: 0.0016645961538461539,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0016566
+Gross Profit before fee: (BTC) 0.00000799615384615383
+Gross Profit before fee: 0.48%
+Net Profit after fee: (BTC) 0.00000302635384615383
+Net Profit after fee: 0.18%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250980',
+  bidQty: '75.23000000',
+  askPrice: '0.00251000',
+  askQty: '0.66000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.66000000',
+  price: '0.00251000',
+  totalPriceBaseCurrency: 0.0016566,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11408000',
+  bidQty: '537.20000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 5.769230769230769,
+  price: '0.11440000',
+  totalPrice: '0.66000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028853',
+  bidQty: '368.00000000',
+  askPrice: '0.00028938',
+  askQty: '383.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 5.769230769230769,
+  price: '0.00028853',
+  totalPriceBaseCurrency: 0.0016645961538461539,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0016566
+Gross Profit before fee: (BTC) 0.00000799615384615383
+Gross Profit before fee: 0.48%
+Net Profit after fee: (BTC) 0.00000302635384615383
+Net Profit after fee: 0.18%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250980',
+  bidQty: '74.78000000',
+  askPrice: '0.00251040',
+  askQty: '4.04000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '4.04000000',
+  price: '0.00251040',
+  totalPriceBaseCurrency: 0.010142016,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11406000',
+  bidQty: '276.70000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 35.31468531468531,
+  price: '0.11440000',
+  totalPrice: '4.04000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028853',
+  bidQty: '364.00000000',
+  askPrice: '0.00028938',
+  askQty: '107.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 35.31468531468531,
+  price: '0.00028853',
+  totalPriceBaseCurrency: 0.010189346153846153,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.010142016
+Gross Profit before fee: (BTC) 0.00004733015384615277
+Gross Profit before fee: 0.47%
+Net Profit after fee: (BTC) 0.00001690410584615277
+Net Profit after fee: 0.17%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250980',
+  bidQty: '74.78000000',
+  askPrice: '0.00251070',
+  askQty: '85.57000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '85.57000000',
+  price: '0.00251070',
+  totalPriceBaseCurrency: 0.21484059899999997,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11411000',
+  bidQty: '540.80000000',
+  askPrice: '0.11440000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 747.9895104895104,
+  price: '0.11440000',
+  totalPrice: '85.57000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028853',
+  bidQty: '1515.00000000',
+  askPrice: '0.00028905',
+  askQty: '94.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 747.9895104895104,
+  price: '0.00028853',
+  totalPriceBaseCurrency: 0.21581741346153843,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.21484059899999997
+Gross Profit before fee: (BTC) 0.0009768144615384666
+Gross Profit before fee: 0.45%
+Net Profit after fee: (BTC) 0.0003322926645384668
+Net Profit after fee: 0.15%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250310',
+  bidQty: '31.24000000',
+  askPrice: '0.00250480',
+  askQty: '209.14000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '209.14000000',
+  price: '0.00250480',
+  totalPriceBaseCurrency: 0.523853872,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11650000',
+  bidQty: '68.80000000',
+  askPrice: '0.11700000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 1787.5213675213672,
+  price: '0.11700000',
+  totalPrice: '209.14000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029400',
+  bidQty: '16201.00000000',
+  askPrice: '0.00029437',
+  askQty: '769.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 1787.5213675213672,
+  price: '0.00029400',
+  totalPriceBaseCurrency: 0.525531282051282,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.523853872
+Gross Profit before fee: (BTC) 0.001677410051281969
+Gross Profit before fee: 0.32%
+Net Profit after fee: (BTC) 0.00010584843528196887
+Net Profit after fee: 0.02%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250310',
+  bidQty: '31.24000000',
+  askPrice: '0.00250480',
+  askQty: '209.14000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '209.14000000',
+  price: '0.00250480',
+  totalPriceBaseCurrency: 0.523853872,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11654000',
+  bidQty: '1290.50000000',
+  askPrice: '0.11700000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 1787.5213675213672,
+  price: '0.11700000',
+  totalPrice: '209.14000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029400',
+  bidQty: '15026.00000000',
+  askPrice: '0.00029436',
+  askQty: '286.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 1787.5213675213672,
+  price: '0.00029400',
+  totalPriceBaseCurrency: 0.525531282051282,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.523853872
+Gross Profit before fee: (BTC) 0.001677410051281969
+Gross Profit before fee: 0.32%
+Net Profit after fee: (BTC) 0.00010584843528196887
+Net Profit after fee: 0.02%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250460',
+  bidQty: '26.71000000',
+  askPrice: '0.00250550',
+  askQty: '106.33000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '106.33000000',
+  price: '0.00250550',
+  totalPriceBaseCurrency: 0.266409815,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11709000',
+  bidQty: '169.00000000',
+  askPrice: '0.11785000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 902.2486211285533,
+  price: '0.11785000',
+  totalPrice: '106.33000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029627',
+  bidQty: '2259.00000000',
+  askPrice: '0.00029650',
+  askQty: '342.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 902.2486211285533,
+  price: '0.00029627',
+  totalPriceBaseCurrency: 0.2673091989817565,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.266409815
+Gross Profit before fee: (BTC) 0.0008993839817564853
+Gross Profit before fee: 0.34%
+Net Profit after fee: (BTC) 0.00010015453675648528
+Net Profit after fee: 0.04%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00250460',
+  bidQty: '26.71000000',
+  askPrice: '0.00250550',
+  askQty: '106.33000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '106.33000000',
+  price: '0.00250550',
+  totalPriceBaseCurrency: 0.266409815,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11710000',
+  bidQty: '1284.90000000',
+  askPrice: '0.11785000',
+  askQty: '0.40000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 902.2486211285533,
+  price: '0.11785000',
+  totalPrice: '106.33000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029627',
+  bidQty: '2259.00000000',
+  askPrice: '0.00029650',
+  askQty: '342.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 902.2486211285533,
+  price: '0.00029627',
+  totalPriceBaseCurrency: 0.2673091989817565,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.266409815
+Gross Profit before fee: (BTC) 0.0008993839817564853
+Gross Profit before fee: 0.34%
+Net Profit after fee: (BTC) 0.00010015453675648528
+Net Profit after fee: 0.04%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251540',
+  bidQty: '10.32000000',
+  askPrice: '0.00251790',
+  askQty: '20.64000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '20.64000000',
+  price: '0.00251790',
+  totalPriceBaseCurrency: 0.051969456000000004,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11689000',
+  bidQty: '253.00000000',
+  askPrice: '0.11690000',
+  askQty: '0.80000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 176.5611633875107,
+  price: '0.11690000',
+  totalPrice: '20.64000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029630',
+  bidQty: '182.00000000',
+  askPrice: '0.00029687',
+  askQty: '464.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 176.5611633875107,
+  price: '0.00029630',
+  totalPriceBaseCurrency: 0.05231507271171942,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.051969456000000004
+Gross Profit before fee: (BTC) 0.00034561671171941255
+Gross Profit before fee: 0.67%
+Net Profit after fee: (BTC) 0.00018970834371941254
+Net Profit after fee: 0.37%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251570',
+  bidQty: '37.99000000',
+  askPrice: '0.00251750',
+  askQty: '18.68000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '18.68000000',
+  price: '0.00251750',
+  totalPriceBaseCurrency: 0.0470269,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11689000',
+  bidQty: '520.30000000',
+  askPrice: '0.11690000',
+  askQty: '0.80000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 159.79469632164242,
+  price: '0.11690000',
+  totalPrice: '18.68000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00029630',
+  bidQty: '312.00000000',
+  askPrice: '0.00029688',
+  askQty: '240.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 159.79469632164242,
+  price: '0.00029630',
+  totalPriceBaseCurrency: 0.04734716852010265,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0470269
+Gross Profit before fee: (BTC) 0.000320268520102647
+Gross Profit before fee: 0.68%
+Net Profit after fee: (BTC) 0.000179187820102647
+Net Profit after fee: 0.38%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251470',
+  bidQty: '148.69000000',
+  askPrice: '0.00251670',
+  askQty: '12.24000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '12.24000000',
+  price: '0.00251670',
+  totalPriceBaseCurrency: 0.030804408000000002,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11355000',
+  bidQty: '97.10000000',
+  askPrice: '0.11371000',
+  askQty: '0.10000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 107.64224782341043,
+  price: '0.11371000',
+  totalPrice: '12.24000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028763',
+  bidQty: '1211.00000000',
+  askPrice: '0.00028778',
+  askQty: '602.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 107.64224782341043,
+  price: '0.00028763',
+  totalPriceBaseCurrency: 0.03096113974144754,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.030804408000000002
+Gross Profit before fee: (BTC) 0.00015673174144753901
+Gross Profit before fee: 0.51%
+Net Profit after fee: (BTC) 0.000064318517447539
+Net Profit after fee: 0.21%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251450',
+  bidQty: '126.72000000',
+  askPrice: '0.00251650',
+  askQty: '71.92000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '71.92000000',
+  price: '0.00251650',
+  totalPriceBaseCurrency: 0.18098668,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11382000',
+  bidQty: '544.20000000',
+  askPrice: '0.11400000',
+  askQty: '0.10000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 630.8771929824561,
+  price: '0.11400000',
+  totalPrice: '71.92000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028801',
+  bidQty: '633.00000000',
+  askPrice: '0.00028932',
+  askQty: '66.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 630.8771929824561,
+  price: '0.00028801',
+  totalPriceBaseCurrency: 0.1816989403508772,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.18098668
+Gross Profit before fee: (BTC) 0.0007122603508771808
+Gross Profit before fee: 0.39%
+Net Profit after fee: (BTC) 0.0001693003108771807
+Net Profit after fee: 0.09%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251040',
+  askQty: '55.48000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '55.48000000',
+  price: '0.00251040',
+  totalPriceBaseCurrency: 0.139276992,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '645.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 483.9497557571528,
+  price: '0.11464000',
+  totalPrice: '55.48000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028878',
+  bidQty: '535.00000000',
+  askPrice: '0.00028958',
+  askQty: '4.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 483.9497557571528,
+  price: '0.00028878',
+  totalPriceBaseCurrency: 0.13975501046755057,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.139276992
+Gross Profit before fee: (BTC) 0.0004780184675505783
+Gross Profit before fee: 0.34%
+Net Profit after fee: (BTC) 0.00006018749155057838
+Net Profit after fee: 0.04%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '1.56000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '1.56000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.0039168480000000006,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '645.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 13.60781577110956,
+  price: '0.11464000',
+  totalPrice: '1.56000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '431.00000000',
+  askPrice: '0.00028980',
+  askQty: '3210.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 13.60781577110956,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.0039381018841591064,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.0039168480000000006
+Gross Profit before fee: (BTC) 0.000021253884159105896
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.000009503340159105895
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251110',
+  askQty: '19.58000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '19.58000000',
+  price: '0.00251110',
+  totalPriceBaseCurrency: 0.049167338,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '645.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 170.79553384508023,
+  price: '0.11464000',
+  totalPrice: '19.58000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028980',
+  askQty: '3210.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 170.79553384508023,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.04942822749476622,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.049167338
+Gross Profit before fee: (BTC) 0.0002608894947662213
+Gross Profit before fee: 0.53%
+Net Profit after fee: (BTC) 0.0001133874807662213
+Net Profit after fee: 0.23%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251110',
+  askQty: '19.58000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '19.58000000',
+  price: '0.00251110',
+  totalPriceBaseCurrency: 0.049167338,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 170.79553384508023,
+  price: '0.11464000',
+  totalPrice: '19.58000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028980',
+  askQty: '3210.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 170.79553384508023,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.04942822749476622,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.049167338
+Gross Profit before fee: (BTC) 0.0002608894947662213
+Gross Profit before fee: 0.53%
+Net Profit after fee: (BTC) 0.0001133874807662213
+Net Profit after fee: 0.23%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251110',
+  askQty: '19.58000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '19.58000000',
+  price: '0.00251110',
+  totalPriceBaseCurrency: 0.049167338,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 170.79553384508023,
+  price: '0.11464000',
+  totalPrice: '19.58000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028980',
+  askQty: '3210.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 170.79553384508023,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.04942822749476622,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.049167338
+Gross Profit before fee: (BTC) 0.0002608894947662213
+Gross Profit before fee: 0.53%
+Net Profit after fee: (BTC) 0.0001133874807662213
+Net Profit after fee: 0.23%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251100',
+  askQty: '33.50000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '33.50000000',
+  price: '0.00251100',
+  totalPriceBaseCurrency: 0.08411850000000001,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 292.21912072575014,
+  price: '0.11464000',
+  totalPrice: '33.50000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028980',
+  askQty: '3210.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 292.21912072575014,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.0845682135380321,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.08411850000000001
+Gross Profit before fee: (BTC) 0.0004497135380320816
+Gross Profit before fee: 0.53%
+Net Profit after fee: (BTC) 0.00019735803803208157
+Net Profit after fee: 0.23%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028979',
+  askQty: '420.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028978',
+  askQty: '3210.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028978',
+  askQty: '3210.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028978',
+  askQty: '3123.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028976',
+  askQty: '1070.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028965',
+  askQty: '1498.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028964',
+  askQty: '420.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '17.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '17.02000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.042733816,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 148.46475924633634,
+  price: '0.11464000',
+  totalPrice: '17.02000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028963',
+  askQty: '1070.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 148.46475924633634,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.042965701325889734,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.042733816
+Gross Profit before fee: (BTC) 0.00023188532588973298
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010368387788973297
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '16.44000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '16.44000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.041277552,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 143.40544312630846,
+  price: '0.11464000',
+  totalPrice: '16.44000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028961',
+  askQty: '642.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 143.40544312630846,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.041501535240753666,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.041277552
+Gross Profit before fee: (BTC) 0.00022398324075366405
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010015058475366404
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251080',
+  askQty: '16.44000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '16.44000000',
+  price: '0.00251080',
+  totalPriceBaseCurrency: 0.041277552,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '538.40000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 143.40544312630846,
+  price: '0.11464000',
+  totalPrice: '16.44000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028940',
+  bidQty: '382.00000000',
+  askPrice: '0.00028961',
+  askQty: '2140.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 143.40544312630846,
+  price: '0.00028940',
+  totalPriceBaseCurrency: 0.041501535240753666,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.041277552
+Gross Profit before fee: (BTC) 0.00022398324075366405
+Gross Profit before fee: 0.54%
+Net Profit after fee: (BTC) 0.00010015058475366404
+Net Profit after fee: 0.24%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '13.40000000',
+  askPrice: '0.00251110',
+  askQty: '6.76000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '6.76000000',
+  price: '0.00251110',
+  totalPriceBaseCurrency: 0.016975036,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '333.00000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 58.96720167480809,
+  price: '0.11464000',
+  totalPrice: '6.76000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028900',
+  bidQty: '100.00000000',
+  askPrice: '0.00028939',
+  askQty: '214.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 58.96720167480809,
+  price: '0.00028900',
+  totalPriceBaseCurrency: 0.017041521284019538,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.016975036
+Gross Profit before fee: (BTC) 0.0000664852840195386
+Gross Profit before fee: 0.39%
+Net Profit after fee: (BTC) 0.0000155601760195386
+Net Profit after fee: 0.09%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '12.77000000',
+  askPrice: '0.00251110',
+  askQty: '6.76000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '6.76000000',
+  price: '0.00251110',
+  totalPriceBaseCurrency: 0.016975036,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '333.00000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 58.96720167480809,
+  price: '0.11464000',
+  totalPrice: '6.76000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028900',
+  bidQty: '100.00000000',
+  askPrice: '0.00028939',
+  askQty: '428.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 58.96720167480809,
+  price: '0.00028900',
+  totalPriceBaseCurrency: 0.017041521284019538,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.016975036
+Gross Profit before fee: (BTC) 0.0000664852840195386
+Gross Profit before fee: 0.39%
+Net Profit after fee: (BTC) 0.0000155601760195386
+Net Profit after fee: 0.09%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '12.77000000',
+  askPrice: '0.00251110',
+  askQty: '6.76000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '6.76000000',
+  price: '0.00251110',
+  totalPriceBaseCurrency: 0.016975036,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '333.00000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 58.96720167480809,
+  price: '0.11464000',
+  totalPrice: '6.76000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028900',
+  bidQty: '100.00000000',
+  askPrice: '0.00028939',
+  askQty: '428.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 58.96720167480809,
+  price: '0.00028900',
+  totalPriceBaseCurrency: 0.017041521284019538,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.016975036
+Gross Profit before fee: (BTC) 0.0000664852840195386
+Gross Profit before fee: 0.39%
+Net Profit after fee: (BTC) 0.0000155601760195386
+Net Profit after fee: 0.09%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '12.77000000',
+  askPrice: '0.00251110',
+  askQty: '6.76000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '6.76000000',
+  price: '0.00251110',
+  totalPriceBaseCurrency: 0.016975036,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11463000',
+  bidQty: '333.00000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 58.96720167480809,
+  price: '0.11464000',
+  totalPrice: '6.76000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028900',
+  bidQty: '100.00000000',
+  askPrice: '0.00028939',
+  askQty: '428.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 58.96720167480809,
+  price: '0.00028900',
+  totalPriceBaseCurrency: 0.017041521284019538,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.016975036
+Gross Profit before fee: (BTC) 0.0000664852840195386
+Gross Profit before fee: 0.39%
+Net Profit after fee: (BTC) 0.0000155601760195386
+Net Profit after fee: 0.09%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '12.77000000',
+  askPrice: '0.00251050',
+  askQty: '53.26000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '53.26000000',
+  price: '0.00251050',
+  totalPriceBaseCurrency: 0.13370923,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11458000',
+  bidQty: '51.00000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 464.5847871598046,
+  price: '0.11464000',
+  totalPrice: '53.26000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028901',
+  bidQty: '476.00000000',
+  askPrice: '0.00028963',
+  askQty: '26.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 464.5847871598046,
+  price: '0.00028901',
+  totalPriceBaseCurrency: 0.13426964933705512,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.13370923
+Gross Profit before fee: (BTC) 0.0005604193370551125
+Gross Profit before fee: 0.42%
+Net Profit after fee: (BTC) 0.0001592916470551124
+Net Profit after fee: 0.12%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251000',
+  bidQty: '12.77000000',
+  askPrice: '0.00251050',
+  askQty: '53.26000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '53.26000000',
+  price: '0.00251050',
+  totalPriceBaseCurrency: 0.13370923,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11458000',
+  bidQty: '527.00000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 464.5847871598046,
+  price: '0.11464000',
+  totalPrice: '53.26000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028901',
+  bidQty: '476.00000000',
+  askPrice: '0.00028963',
+  askQty: '26.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 464.5847871598046,
+  price: '0.00028901',
+  totalPriceBaseCurrency: 0.13426964933705512,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.13370923
+Gross Profit before fee: (BTC) 0.0005604193370551125
+Gross Profit before fee: 0.42%
+Net Profit after fee: (BTC) 0.0001592916470551124
+Net Profit after fee: 0.12%
+
+BNBBTC->ONGBNB->ONGBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251010',
+  bidQty: '255.63000000',
+  askPrice: '0.00251050',
+  askQty: '53.26000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '53.26000000',
+  price: '0.00251050',
+  totalPriceBaseCurrency: 0.13370923,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ONGBNB
+{ bidPrice: '0.11458000',
+  bidQty: '527.00000000',
+  askPrice: '0.11464000',
+  askQty: '0.90000000' }
+Second Leg Order
+{ buyingCurrency: 'ONG',
+  sellingCurrency: 'BNB',
+  symbol: 'ONGBNB',
+  orderType: 'BUY',
+  qty: 464.5847871598046,
+  price: '0.11464000',
+  totalPrice: '53.26000000' }
+Third Leg Order Book: ONGBTC
+{ bidPrice: '0.00028901',
+  bidQty: '476.00000000',
+  askPrice: '0.00028963',
+  askQty: '26.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ONG',
+  qty: 464.5847871598046,
+  price: '0.00028901',
+  totalPriceBaseCurrency: 0.13426964933705512,
+  orderType: 'SELL',
+  symbol: 'ONGBTC' }
+Total Investment: (BTC) 0.13370923
+Gross Profit before fee: (BTC) 0.0005604193370551125
+Gross Profit before fee: 0.42%
+Net Profit after fee: (BTC) 0.0001592916470551124
+Net Profit after fee: 0.12%
+
+ETHBTC->RLCETH->RLCBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03389600',
+  bidQty: '0.88400000',
+  askPrice: '0.03390600',
+  askQty: '19.80000000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '19.80000000',
+  price: '0.03390600',
+  totalPriceBaseCurrency: 0.6713388,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: RLCETH
+{ bidPrice: '0.00198900',
+  bidQty: '5023.92000000',
+  askPrice: '0.00199000',
+  askQty: '47.17000000' }
+Second Leg Order
+{ buyingCurrency: 'RLC',
+  sellingCurrency: 'ETH',
+  symbol: 'RLCETH',
+  orderType: 'BUY',
+  qty: 9949.748743718594,
+  price: '0.00199000',
+  totalPrice: '19.80000000' }
+Third Leg Order Book: RLCBTC
+{ bidPrice: '0.00006810',
+  bidQty: '12078.13000000',
+  askPrice: '0.00006830',
+  askQty: '6268.79000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'RLC',
+  qty: 9949.748743718594,
+  price: '0.00006810',
+  totalPriceBaseCurrency: 0.6775778894472363,
+  orderType: 'SELL',
+  symbol: 'RLCBTC' }
+Total Investment: (BTC) 0.6713388
+Gross Profit before fee: (BTC) 0.006239089447236279
+Gross Profit before fee: 0.93%
+Net Profit after fee: (BTC) 0.004225073047236279
+Net Profit after fee: 0.63%
+
+BNBBTC->ADXBNB->ADXBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251030',
+  bidQty: '82.12000000',
+  askPrice: '0.00251140',
+  askQty: '23.02000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '23.02000000',
+  price: '0.00251140',
+  totalPriceBaseCurrency: 0.057812428,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: ADXBNB
+{ bidPrice: '0.01227000',
+  bidQty: '4936.60000000',
+  askPrice: '0.01231000',
+  askQty: '23.30000000' }
+Second Leg Order
+{ buyingCurrency: 'ADX',
+  sellingCurrency: 'BNB',
+  symbol: 'ADXBNB',
+  orderType: 'BUY',
+  qty: 1870.0243704305442,
+  price: '0.01231000',
+  totalPrice: '23.02000000' }
+Third Leg Order Book: ADXBTC
+{ bidPrice: '0.00003102',
+  bidQty: '10931.00000000',
+  askPrice: '0.00003104',
+  askQty: '217.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ADX',
+  qty: 1870.0243704305442,
+  price: '0.00003102',
+  totalPriceBaseCurrency: 0.058008155970755475,
+  orderType: 'SELL',
+  symbol: 'ADXBTC' }
+Total Investment: (BTC) 0.057812428
+Gross Profit before fee: (BTC) 0.0001957279707554757
+Gross Profit before fee: 0.34%
+Net Profit after fee: (BTC) 0.00002229068675547572
+Net Profit after fee: 0.04%
+
+BNBBTC->BTSBNB->BTSBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251700',
+  bidQty: '56.13000000',
+  askPrice: '0.00251710',
+  askQty: '0.97000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '0.97000000',
+  price: '0.00251710',
+  totalPriceBaseCurrency: 0.002441587,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: BTSBNB
+{ bidPrice: '0.00451000',
+  bidQty: '29710.50000000',
+  askPrice: '0.00452000',
+  askQty: '0.70000000' }
+Second Leg Order
+{ buyingCurrency: 'BTS',
+  sellingCurrency: 'BNB',
+  symbol: 'BTSBNB',
+  orderType: 'BUY',
+  qty: 214.60176991150442,
+  price: '0.00452000',
+  totalPrice: '0.97000000' }
+Third Leg Order Book: BTSBTC
+{ bidPrice: '0.00001142',
+  bidQty: '83559.00000000',
+  askPrice: '0.00001143',
+  askQty: '3441.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'BTS',
+  qty: 214.60176991150442,
+  price: '0.00001142',
+  totalPriceBaseCurrency: 0.0024507522123893804,
+  orderType: 'SELL',
+  symbol: 'BTSBTC' }
+Total Investment: (BTC) 0.002441587
+Gross Profit before fee: (BTC) 0.000009165212389380603
+Gross Profit before fee: 0.38%
+Net Profit after fee: (BTC) 0.0000018404513893806036
+Net Profit after fee: 0.08%
+
+BNBBTC->BTSBNB->BTSBTC
+First Leg Order Book: BNBBTC
+{ bidPrice: '0.00251700',
+  bidQty: '56.13000000',
+  askPrice: '0.00251710',
+  askQty: '16.66000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'BTC',
+  qty: '16.66000000',
+  price: '0.00251710',
+  totalPriceBaseCurrency: 0.041934886,
+  orderType: 'BUY',
+  symbol: 'BNBBTC' }
+Second Leg Order Book: BTSBNB
+{ bidPrice: '0.00451000',
+  bidQty: '43395.20000000',
+  askPrice: '0.00452000',
+  askQty: '0.70000000' }
+Second Leg Order
+{ buyingCurrency: 'BTS',
+  sellingCurrency: 'BNB',
+  symbol: 'BTSBNB',
+  orderType: 'BUY',
+  qty: 3685.840707964602,
+  price: '0.00452000',
+  totalPrice: '16.66000000' }
+Third Leg Order Book: BTSBTC
+{ bidPrice: '0.00001142',
+  bidQty: '81308.00000000',
+  askPrice: '0.00001143',
+  askQty: '3441.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'BTS',
+  qty: 3685.840707964602,
+  price: '0.00001142',
+  totalPriceBaseCurrency: 0.04209230088495576,
+  orderType: 'SELL',
+  symbol: 'BTSBTC' }
+Total Investment: (BTC) 0.041934886
+Gross Profit before fee: (BTC) 0.000157414884955763
+Gross Profit before fee: 0.38%
+Net Profit after fee: (BTC) 0.000031610226955763025
+Net Profit after fee: 0.08%
+
+ETHBTC->ELFETH->ELFBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03400000',
+  bidQty: '8.00000000',
+  askPrice: '0.03400600',
+  askQty: '2.38000000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '2.38000000',
+  price: '0.03400600',
+  totalPriceBaseCurrency: 0.08093428,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: ELFETH
+{ bidPrice: '0.00103846',
+  bidQty: '3124.00000000',
+  askPrice: '0.00103847',
+  askQty: '40.00000000' }
+Second Leg Order
+{ buyingCurrency: 'ELF',
+  sellingCurrency: 'ETH',
+  symbol: 'ELFETH',
+  orderType: 'BUY',
+  qty: 2291.833177655589,
+  price: '0.00103847',
+  totalPrice: '2.38000000' }
+Third Leg Order Book: ELFBTC
+{ bidPrice: '0.00003543',
+  bidQty: '3124.00000000',
+  askPrice: '0.00003545',
+  askQty: '3254.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'ELF',
+  qty: 2291.833177655589,
+  price: '0.00003543',
+  totalPriceBaseCurrency: 0.08119964948433753,
+  orderType: 'SELL',
+  symbol: 'ELFBTC' }
+Total Investment: (BTC) 0.08093428
+Gross Profit before fee: (BTC) 0.0002653694843375298
+Gross Profit before fee: 0.33%
+Net Profit after fee: (BTC) 0.000022566644337529845
+Net Profit after fee: 0.03%
+
+ETHBTC->MCOETH->MCOBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03400000',
+  bidQty: '0.01000000',
+  askPrice: '0.03400500',
+  askQty: '15.60500000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '15.60500000',
+  price: '0.03400500',
+  totalPriceBaseCurrency: 0.530648025,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: MCOETH
+{ bidPrice: '0.02266400',
+  bidQty: '4.88000000',
+  askPrice: '0.02280000',
+  askQty: '16.11000000' }
+Second Leg Order
+{ buyingCurrency: 'MCO',
+  sellingCurrency: 'ETH',
+  symbol: 'MCOETH',
+  orderType: 'BUY',
+  qty: 684.4298245614035,
+  price: '0.02280000',
+  totalPrice: '15.60500000' }
+Third Leg Order Book: MCOBTC
+{ bidPrice: '0.00077800',
+  bidQty: '2048.92000000',
+  askPrice: '0.00077900',
+  askQty: '68.25000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'MCO',
+  qty: 684.4298245614035,
+  price: '0.00077800',
+  totalPriceBaseCurrency: 0.532486403508772,
+  orderType: 'SELL',
+  symbol: 'MCOBTC' }
+Total Investment: (BTC) 0.530648025
+Gross Profit before fee: (BTC) 0.0018383785087719984
+Gross Profit before fee: 0.35%
+Net Profit after fee: (BTC) 0.00024643443377199865
+Net Profit after fee: 0.05%
+
+ETHBTC->NULSETH->NULSBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03398200',
+  bidQty: '2.18300000',
+  askPrice: '0.03398900',
+  askQty: '0.48600000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '0.48600000',
+  price: '0.03398900',
+  totalPriceBaseCurrency: 0.016518653999999997,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: NULSETH
+{ bidPrice: '0.00347368',
+  bidQty: '1029.00000000',
+  askPrice: '0.00348832',
+  askQty: '48.00000000' }
+Second Leg Order
+{ buyingCurrency: 'NULS',
+  sellingCurrency: 'ETH',
+  symbol: 'NULSETH',
+  orderType: 'BUY',
+  qty: 139.32208054306943,
+  price: '0.00348832',
+  totalPrice: '0.48600000' }
+Third Leg Order Book: NULSBTC
+{ bidPrice: '0.00011900',
+  bidQty: '6537.00000000',
+  askPrice: '0.00011901',
+  askQty: '375.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'NULS',
+  qty: 139.32208054306943,
+  price: '0.00011900',
+  totalPriceBaseCurrency: 0.016579327584625263,
+  orderType: 'SELL',
+  symbol: 'NULSBTC' }
+Total Investment: (BTC) 0.016518653999999997
+Gross Profit before fee: (BTC) 0.000060673584625265536
+Gross Profit before fee: 0.37%
+Net Profit after fee: (BTC) 0.000011117622625265546
+Net Profit after fee: 0.07%
+
+ETHBTC->HOTETH->HOTBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03391400',
+  bidQty: '0.17900000',
+  askPrice: '0.03392000',
+  askQty: '0.00200000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '0.00200000',
+  price: '0.03392000',
+  totalPriceBaseCurrency: 0.00006784,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: HOTETH
+{ bidPrice: '0.00001084',
+  bidQty: '7490.00000000',
+  askPrice: '0.00001085',
+  askQty: '67.00000000' }
+Second Leg Order
+{ buyingCurrency: 'HOT',
+  sellingCurrency: 'ETH',
+  symbol: 'HOTETH',
+  orderType: 'BUY',
+  qty: 184.33179723502306,
+  price: '0.00001085',
+  totalPrice: '0.00200000' }
+Third Leg Order Book: HOTBTC
+{ bidPrice: '0.00000037',
+  bidQty: '2720408.00000000',
+  askPrice: '0.00000038',
+  askQty: '314238882.00000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'HOT',
+  qty: 184.33179723502306,
+  price: '0.00000037',
+  totalPriceBaseCurrency: 0.00006820276497695854,
+  orderType: 'SELL',
+  symbol: 'HOTBTC' }
+Total Investment: (BTC) 0.00006784
+Gross Profit before fee: (BTC) 3.627649769585357e-7
+Gross Profit before fee: 0.53%
+Net Profit after fee: (BTC) 1.5924497695853572e-7
+Net Profit after fee: 0.23%
+
+ETHBTC->EDOETH->EDOBTC
+First Leg Order Book: ETHBTC
+{ bidPrice: '0.03388700',
+  bidQty: '1.42200000',
+  askPrice: '0.03388800',
+  askQty: '0.23000000' }
+First Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'BTC',
+  qty: '0.23000000',
+  price: '0.03388800',
+  totalPriceBaseCurrency: 0.007794240000000001,
+  orderType: 'BUY',
+  symbol: 'ETHBTC' }
+Second Leg Order Book: EDOETH
+{ bidPrice: '0.00669300',
+  bidQty: '8.53000000',
+  askPrice: '0.00673700',
+  askQty: '745.13000000' }
+Second Leg Order
+{ buyingCurrency: 'EDO',
+  sellingCurrency: 'ETH',
+  symbol: 'EDOETH',
+  orderType: 'BUY',
+  qty: 34.13982484785513,
+  price: '0.00673700',
+  totalPrice: '0.23000000' }
+Third Leg Order Book: EDOBTC
+{ bidPrice: '0.00023030',
+  bidQty: '1789.83000000',
+  askPrice: '0.00023600',
+  askQty: '92.50000000' }
+Third Leg Order
+{ buyingCurrency: 'BTC',
+  sellingCurrency: 'EDO',
+  qty: 34.13982484785513,
+  price: '0.00023030',
+  totalPriceBaseCurrency: 0.007862401662461035,
+  orderType: 'SELL',
+  symbol: 'EDOBTC' }
+Total Investment: (BTC) 0.007794240000000001
+Gross Profit before fee: (BTC) 0.00006816166246103456
+Gross Profit before fee: 0.87%
+Net Profit after fee: (BTC) 0.000044778942461034545
+Net Profit after fee: 0.57%
 null

@@ -1,0 +1,139 @@
+
+BNBETH->ICXBNB->ICXETH
+First Leg Order Book: BNBETH
+{ bidPrice: '0.07420100',
+  bidQty: '0.60000000',
+  askPrice: '0.07437600',
+  askQty: '9.06000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'ETH',
+  qty: '9.06000000',
+  price: '0.07437600',
+  totalPriceBaseCurrency: 0.67384656,
+  orderType: 'BUY',
+  symbol: 'BNBETH' }
+Second Leg Order Book: ICXBNB
+{ bidPrice: '0.02389000',
+  bidQty: '262.70000000',
+  askPrice: '0.02390000',
+  askQty: '16.70000000' }
+Second Leg Order
+{ buyingCurrency: 'ICX',
+  sellingCurrency: 'BNB',
+  symbol: 'ICXBNB',
+  orderType: 'BUY',
+  qty: 379.0794979079498,
+  price: '0.02390000',
+  totalPrice: '9.06000000' }
+Third Leg Order Book: ICXETH
+{ bidPrice: '0.00178300',
+  bidQty: '561.38000000',
+  askPrice: '0.00179100',
+  askQty: '51.52000000' }
+Third Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'ICX',
+  qty: 379.0794979079498,
+  price: '0.00178300',
+  totalPriceBaseCurrency: 0.6758987447698745,
+  orderType: 'SELL',
+  symbol: 'ICXETH' }
+Total Investment: (ETH) 0.67384656
+Gross Profit before fee: (ETH) 0.0020521847698745654
+Gross Profit before fee: 0.30%
+Net Profit after fee: (ETH) 0.00003064508987456554
+Net Profit after fee: 0.00%
+
+BNBETH->APPCBNB->APPCETH
+First Leg Order Book: BNBETH
+{ bidPrice: '0.07446600',
+  bidQty: '40.12000000',
+  askPrice: '0.07453000',
+  askQty: '0.14000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'ETH',
+  qty: '0.14000000',
+  price: '0.07453000',
+  totalPriceBaseCurrency: 0.010434200000000001,
+  orderType: 'BUY',
+  symbol: 'BNBETH' }
+Second Leg Order Book: APPCBNB
+{ bidPrice: '0.00817000',
+  bidQty: '2498.30000000',
+  askPrice: '0.00820000',
+  askQty: '6.00000000' }
+Second Leg Order
+{ buyingCurrency: 'APPC',
+  sellingCurrency: 'BNB',
+  symbol: 'APPCBNB',
+  orderType: 'BUY',
+  qty: 17.073170731707318,
+  price: '0.00820000',
+  totalPrice: '0.14000000' }
+Third Leg Order Book: APPCETH
+{ bidPrice: '0.00061340',
+  bidQty: '6276.00000000',
+  askPrice: '0.00061350',
+  askQty: '1678.00000000' }
+Third Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'APPC',
+  qty: 17.073170731707318,
+  price: '0.00061340',
+  totalPriceBaseCurrency: 0.010472682926829268,
+  orderType: 'SELL',
+  symbol: 'APPCETH' }
+Total Investment: (ETH) 0.010434200000000001
+Gross Profit before fee: (ETH) 0.00003848292682926725
+Gross Profit before fee: 0.37%
+Net Profit after fee: (ETH) 0.000007180326829267249
+Net Profit after fee: 0.07%
+
+BNBETH->RDNBNB->RDNETH
+First Leg Order Book: BNBETH
+{ bidPrice: '0.07430500',
+  bidQty: '0.84000000',
+  askPrice: '0.07451400',
+  askQty: '21.78000000' }
+First Leg Order
+{ buyingCurrency: 'BNB',
+  sellingCurrency: 'ETH',
+  qty: '21.78000000',
+  price: '0.07451400',
+  totalPriceBaseCurrency: 1.62291492,
+  orderType: 'BUY',
+  symbol: 'BNBETH' }
+Second Leg Order Book: RDNBNB
+{ bidPrice: '0.02419000',
+  bidQty: '4474.50000000',
+  askPrice: '0.02572000',
+  askQty: '1545.30000000' }
+Second Leg Order
+{ buyingCurrency: 'RDN',
+  sellingCurrency: 'BNB',
+  symbol: 'RDNBNB',
+  orderType: 'BUY',
+  qty: 846.8118195956455,
+  price: '0.02572000',
+  totalPrice: '21.78000000' }
+Third Leg Order Book: RDNETH
+{ bidPrice: '0.00205000',
+  bidQty: '84032.00000000',
+  askPrice: '0.00205170',
+  askQty: '31.00000000' }
+Third Leg Order
+{ buyingCurrency: 'ETH',
+  sellingCurrency: 'RDN',
+  qty: 846.8118195956455,
+  price: '0.00205000',
+  totalPriceBaseCurrency: 1.7359642301710734,
+  orderType: 'SELL',
+  symbol: 'RDNETH' }
+Total Investment: (ETH) 1.62291492
+Gross Profit before fee: (ETH) 0.11304931017107345
+Gross Profit before fee: 6.97%
+Net Profit after fee: (ETH) 0.10818056541107346
+Net Profit after fee: 6.67%
+null
