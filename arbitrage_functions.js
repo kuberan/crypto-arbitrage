@@ -10,7 +10,7 @@ var assert = require('assert');
 	profitThresholdPercent: Profit Threshold Percent
 	baseCurrency: Currrency that will be retained as profit after all 3 trades
 */
-function findTriangularArbitrage(data, checkOrderQuantity=false, profitThresholdPercent=0.0, baseCurrency='BTC', debug=false, feePercent=0.3)
+function findTriangularArbitrage(ts, data, checkOrderQuantity=false, profitThresholdPercent=0.0, baseCurrency='BTC', debug=false, feePercent=0.3, callback)
 {
 	//var checkOrderQuantity = false; // Check if Order quantity is sufficient for second and third leg
         //var profitThresholdPercent = 0.00028;
@@ -155,7 +155,6 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
 
 				if ((netProfitPercent > profitThresholdPercent) && isOrderQuantitySufficient){
 					console.log();
-					//console.log((new Date()).toLocaleDateString() + ' ' + (new Date()).toLocaleTimeString());
 					console.log(firstLegSymbol + '->' + secondLegSymbol + '->' + thirdLegSymbol);
 
 					if(debug == true)
@@ -181,10 +180,34 @@ function findTriangularArbitrage(data, checkOrderQuantity=false, profitThreshold
 					console.log('Gross Profit before fee: ' + parseFloat(grossProfitPercent).toFixed(2) + '%');
 					console.log('Net Profit after fee: (' + baseCurrency + ') ' + netProfit );
                                         console.log('Net Profit after fee: ' + parseFloat(netProfitPercent).toFixed(2) + '%');
+					console.log('Time Stamp (human-readable): ' +  (new Date(ts)).toLocaleDateString() + ' ' + (new Date(ts)).toLocaleTimeString());
+					console.log('Time Stamp (machine-readable): ' + ts);
 				}
 				//console.log('thirdLegSymbolCurrency: ' + thirdLegSymbolCurrency);
 				//console.log('secondLegSymbolCurrency: ' + secondLegSymbolCurrency);
 				assert(thirdLegSymbolCurrency == secondLegSymbolCurrency);
+				if(callback != null)
+				{
+					var result = {'timestamp': ts, 'baseCurrency': baseCurrency};
+					result.firstLegOrderBook = priceDict[firstLegSymbol];
+					result.firstLegOrderBook["symbol"] = firstLegSymbol;
+					result.irstLegOrder = firstLegTransaction;
+					result.secondLegOrderBook = priceDict[secondLegSymbol];
+					result.secondLegOrderBook["symbol"] = secondLegSymbol;
+					result.secondLegOrder = secondLegTransaction;
+					result.thirdLegOrderBook = priceDict[thirdLegSymbol];
+					result.thirdLegOrderBook["symbol"] = thirdLegSymbol;
+					result.thirdLegOrder = thirdLegTransaction;
+					result.totalInvestment = firstLegTransaction['totalPriceBaseCurrency'];
+					result.grossProfitBeforeFeeAbsolute = grossProfit;
+					result.grossProfitBeforeFeePercent = parseFloat(grossProfitPercent).toFixed(2);
+					result.netProfitAfterFeeAbosulte =  netProfit;
+					result.netProfitAfterFeePercent = parseFloat(netProfitPercent).toFixed(2);
+					result.isOrderQuantitySufficient = isOrderQuantitySufficient;
+					result.fee = feePercent;
+					result.time = (new Date(ts)).toLocaleDateString() + ' ' + (new Date(ts)).toLocaleTimeString();
+					return callback(result);
+				}
 			});
 		});
 	});

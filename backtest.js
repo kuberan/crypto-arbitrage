@@ -2,20 +2,15 @@ var assert = require('assert');
 var MongoClient = require('mongodb').MongoClient;
 var arbitrageFunctions = require('./arbitrage_functions');
 
-//const url = 'mongodb://adminuser:oNsz2kXGlBiMd9S2@cluster0-shard-00-00-kokgx.mongodb.net:27017,cluster0-shard-00-01-kokgx.mongodb.net:27017,cluster0-shard-00-02-kokgx.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true';
 const url = 'mongodb://myUserAdmin:abc123@localhost:27017';
 const dbName = 'binance';
 const client = new MongoClient(url);
-
 client.connect(function(err, client) {
 	assert.equal(null, err);
 	const db = client.db(dbName);
 
-	// Insert a single document
 	var cursor = db.collection('binanceOrderBook').find({}).forEach(function(doc) {
-		arbitrageFunctions.findTriangularArbitrage(doc.binanceOrderData,checkOrderQuantity=true, profitThresholdPercent=0.0, baseCurrency='USDT', debug=true, feePercent=0.3);
-		console.log('Time Stamp (human-readble): ' + doc.time_pst);
-		console.log('Time Stamp (machine-readable): ' + doc.timestamp);
+		arbitrageFunctions.findTriangularArbitrage(doc.timestamp, doc.binanceOrderData, checkOrderQuantity=true, profitThresholdPercent=0.0, baseCurrency='BTC', debug=true, feePercent=0.3, callback=null);
 	}, function(err) {
 		console.log(err);
 		client.close();
