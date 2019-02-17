@@ -19,7 +19,10 @@ binanceWS.onDepthLevelUpdate('BTTUSDT',5, (data) => {
 //        console.log('BTC/USDT ask:' + data.asks[0][0]);
 //});
 
-binanceWS.onDepthLevelUpdate('BTTNEO',5, (data) => {
-        console.log('PAX/BTT bid:' + data.bids[0][0]);
-        console.log('PAX/BTT ask:' + data.asks[0][0]);
+binanceWS.onDepthLevelUpdate('BTCUSDT',20, (data) => {
+        console.log('BTC/USDT bid price: ' + data.bids[0][0]);
+	console.log('BTC/USDT bid qty: ' + data.bids[0][1]);
+        console.log('BTC/USDT ask price: ' + data.asks[0][0]);
+	console.log('BTC/USDT ask qty: ' + data.asks[0][0]);
+	console.log(data);
 });
