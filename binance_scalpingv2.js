@@ -264,6 +264,9 @@ function triggerSellBackTrade(baseCurrency, baseCurrencyBalance, sellCurrency, s
                                 						finalBaseCurrencyBalance = finalBaseCurrencyBalance + (fill.qty * fill.price);
                         						});
                         						console.log(baseCurrency + ' balance: ' + finalBaseCurrencyBalance + ' ' + baseCurrency);
+									var originalProfit = parseFloat((finalBaseCurrencyBalance - baseCurrencyBalance)/baseCurrencyBalance).toFixed(2);
+									console.log('Original Profit Percent: ' + originalProfit + '%');
+									console.log('Original Profit Absolute: ' + (finalBaseCurrencyBalance - baseCurrencyBalance) + ' ' + baseCurrency);
                 						}
        						 });
 
