@@ -25,12 +25,12 @@ const binance = require('node-binance-api')().options({
 var checkNextLegInteveralId;
 
 function tradeExtendedArbitrageStrategy(baseCurrency='USDT',
-					buyCurrency='BTC',
+					buyCurrency='BNB',
 					targetProfitPercent=0.5,
 					stopLossPercent=0.5,
 					feePercent=0.1)
 {
-	var standardMarkets = ['BTC', 'USDT', 'EOS', 'ETH'];
+	var standardMarkets = ['BTC', 'USDT', 'EOS', 'ETH', 'BNB'];
 	if(!(standardMarkets.includes(baseCurrency))){
 		console.log('baseCurrency should be one of BTC, USDT, EOS, ETH');
 		return;
@@ -53,7 +53,7 @@ function tradeExtendedArbitrageStrategy(baseCurrency='USDT',
 		binance.bookTickers(buyCurrency + baseCurrency, (error, ticker) => {
 			console.log("bookTickers", ticker);
 			 var quantity = parseFloat(baseCurrencyBalance / ticker.askPrice * ((100.0 - feePercent) / 100.0)).toFixed(2);
-                        console.log('Buying ' + buyCurrency + ': ' + quantity);
+                        console.log('Buying ' + buyCurrency + ': ' + quantity + ' at ' + ticker.askPrice);
 			binance.marketBuy(buyCurrency + baseCurrency, quantity, (error, response) => {
                                 if(error){
                                         console.log(error.body);
@@ -99,10 +99,10 @@ function checkNextLeg(buyCurrencyBalance=0.0,
 		tickers.forEach((ticker) => {
 			tickerData[ticker.symbol] = ticker;
 		});
-		var maxLossPercent = 0.0;
-		var maxProfitPercent = 0.0;
-		var sellBackMaxProfit = 0.0;
-		var sellBackMaxLoss = 0.0;
+		var maxLossPercent = parseFloat(0.0);
+		var maxProfitPercent = parseFloat(0.0);
+		var minLossPercent = parseFloat(-100.0);
+		var sellBackProfitPercent = parseFloat(0.0);
 		Object.keys(tickerData).forEach(function(symbol) {
 			var ticker = tickerData[symbol];
 			var isBuyCurrencyBaseOfSymbol = symbol.indexOf(buyCurrency) == (symbol.length - buyCurrency.length);
@@ -121,32 +121,39 @@ function checkNextLeg(buyCurrencyBalance=0.0,
 			var thirdLegTradeBalance = secondLegTradeBalance * tickerData[thirdLegSymbol].bidPrice * ((100.0 - feePercent) / 100.0);
 			var profitPercent = parseFloat((thirdLegTradeBalance - baseCurrencyBalance)/(baseCurrencyBalance * ((100.0 - feePercent) / 100.0)) * 100.0).toFixed(2);
 			//console.log(symbol + '->' + thirdLegSymbol);
-			if (profitPercent > maxProfitPercent && profitPercent != Infinity)
+			if(profitPercent != Infinity)
 			{
-				maxProfitPercent = profitPercent;
-				console.log(tickerData[symbol]);
-				console.log(tickerData[thirdLegSymbol]);
-			}
-			if (profitPercent < maxLossPercent)
-			{
-				maxLossPercent = profitPercent;
+				if (profitPercent > maxProfitPercent)
+				{
+					maxProfitPercent = parseFloat(profitPercent);
+					console.log(tickerData[symbol]);
+					console.log(tickerData[thirdLegSymbol]);
+				}
+				if (profitPercent < maxLossPercent)
+				{
+					maxLossPercent = parseFloat(profitPercent);
+				}
+				if(profitPercent < parseFloat(0.0) && profitPercent > minLossPercent)
+				{
+					minLossPercent = parseFloat(profitPercent);
+				}
 			}
 
 			//Sell Back Trade
 			var sellBackTradeBalance = buyCurrencyBalance * tickerData[buyCurrency + baseCurrency].bidPrice * ((100.0 - feePercent) / 100.0);
-			var sellBackProfitPercent = parseFloat((sellBackTradeBalance - baseCurrencyBalance)/(baseCurrencyBalance * ((100.0 - feePercent) / 100.0)) * 100.0).toFixed(2);
-			if(sellBackProfitPercent > sellBackMaxProfit && sellBackProfitPercent != Infinity)
-			{
-				sellBackMaxProfit = sellBackProfitPercent;
-				console.log(tickerData[buyCurrency + baseCurrency]);
-			}
-			if(sellBackProfitPercent < sellBackMaxLoss)
-			{
-				sellBackMaxLoss = sellBackProfitPercent;
-			}
+			sellBackProfitPercent = parseFloat((sellBackTradeBalance - baseCurrencyBalance)/(baseCurrencyBalance * ((100.0 - feePercent) / 100.0)) * 100.0).toFixed(2);
 		});
-		console.log('Arbitrage - ' + 'maxProfit ' + maxProfitPercent + '% maxLoss ' + maxLossPercent + '%');
-		console.log('Sell Back - ' + 'maxProfit ' + sellBackMaxProfit + '% maxLoss ' + sellBackMaxLoss + '%');
+		console.log('Arbitrage - ' + 'maxProfit ' + maxProfitPercent + '% maxLoss ' + maxLossPercent + '% minLoss' + minLossPercent + '%');
+		console.log('SellBack Profit/Loss: ' + sellBackProfitPercent + '%');
+		if(sellBackProfitPercent < parseFloat(0.0) && sellBackProfitPercent > minLossPercent)
+		{
+			minLossPercent = parseFloat(sellBackProfitPercent);
+		}
+		else if(sellBackProfitPercent > parseFloat(0.0) && sellBackProfitPercent > maxProfitPercent)
+		{
+			maxProfitPercent = parseFloat(sellBackProfitPercent);
+		}
+		console.log('Overall maxProfit: ' + maxProfitPercent + '% minLoss: ' + minLossPercent + '%');
 	});
 }
 
