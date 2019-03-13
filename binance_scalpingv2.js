@@ -1,3 +1,4 @@
+var unirest = require('unirest');
 const binance = require('node-binance-api')().options({
   APIKEY: 'tQfISqrkPSJ6e4aiLbtGQa6hGCmgnWg6c2aPZvSfMKdFrsSRsyNBMRrv7SY7zoe8',
   APISECRET: '0U2H7AFda9iAZNxrjX9bEL2D3tdL4wjvf7tkKZENM4Flkgfu6ExKj6Z7wbqsAgka',
@@ -23,6 +24,7 @@ const binance = require('node-binance-api')().options({
 */
 
 var checkNextLegInteveralId;
+var triggeredFinalTrade = false;
 
 function tradeExtendedArbitrageStrategy(baseCurrency='USDT',
 					buyCurrency='BNB',
@@ -172,11 +174,19 @@ function checkNextLeg(buyCurrencyBalance=0.0,
 			clearInterval(checkNextLegInteveralId);
 			if(maxProfitPercentTradeType == 'SELLBACK')
 			{
-				triggerSellBackTrade(baseCurrency, baseCurrencyBalance, buyCurrency, buyCurrencyBalance);
+				if(!triggeredFinalTrade)
+				{
+					triggerSellBackTrade(baseCurrency, baseCurrencyBalance, buyCurrency, buyCurrencyBalance);
+				}
+				triggeredFinalTrade = true;
 			}
 			else if(maxProfitPercentTradeType == 'ARBITRAGE')
 			{
-				triggerArbitrageTrade(baseCurrency, maxProfitPercentSecondLegTradeBuyCurrency, buyCurrency);
+				if(!triggeredFinalTrade)
+				{
+					triggerArbitrageTrade(baseCurrency, maxProfitPercentSecondLegTradeBuyCurrency, buyCurrency);
+				}
+				triggeredFinalTrade = true;
 			}
 			else{
 				console.log('Invalid maxProfitPercentTradeType');
@@ -187,11 +197,19 @@ function checkNextLeg(buyCurrencyBalance=0.0,
 			clearInterval(checkNextLegInteveralId);
 			if(minLossPercentTradeType == 'SELLBACK')
                         {
-                                triggerSellBackTrade(baseCurrency, baseCurrencyBalance, buyCurrency, buyCurrencyBalance);
+				if(!triggeredFinalTrade)
+				{
+                                	triggerSellBackTrade(baseCurrency, baseCurrencyBalance, buyCurrency, buyCurrencyBalance);
+				}
+				triggeredFinalTrade = true;
                         }
                         else if(minLossPercentTradeType == 'ARBITRAGE')
                         {
-                                triggerArbitrageTrade(baseCurrency, minLossPercentSecondLegTradeBuyCurrency, buyCurrency);
+				if(!triggeredFinalTrade)
+				{
+                                	triggerArbitrageTrade(baseCurrency, minLossPercentSecondLegTradeBuyCurrency, buyCurrency);
+				}
+				triggeredFinalTrade = true;
                         }
                         else{
                                 console.log('Invalid minLossPercentTradeType');
@@ -213,26 +231,51 @@ function triggerSellBackTrade(baseCurrency, baseCurrencyBalance, sellCurrency, s
 {
 	console.log('Sellback Trade Triggered');
 	var market = sellCurrency + baseCurrency;
-	console.log('Triggering MARKET order sell ' + market);
-	console.log('Triggering MARKET order sell with quantity: ' + sellQuantity + ' ' + sellCurrency);
-	binance.marketSell(buyCurrency + baseCurrency, sellQuantity, (error, response) => {
-		if(error){ console.log(error.body); return; }
-		console.log("Market Sell response ", response);
-		console.log("Sellback Order id: " + response.orderId);
-		if(response.orderId)
-		{
-			console.log('Triggered MARKET order sell with quantity: ' + sellQuantity + ' ' + sellCurrency);
-			var finalBaseCurrencyBalance;
-			response.fills.forEach((fill) => {
-				finalBaseCurrencyBalance = finalBaseCurrencyBalance + (fill.qty * fill.price);
-			});
-			console.log(baseCurrency + ' balance: ' + finalBaseCurrencyBalance + ' ' + baseCurrency);
-		}
+	var sellQuantityLotSizeNormalized;
+	unirest.get('https://api.binance.com/api/v1/exchangeInfo')
+        .end(function (response) {
+                if(response.error)
+                {
+                        console.log(response.error);
+                        return;
+                }
+		//console.log(response.body.symbols);
+		response.body.symbols.forEach((symbol) => {
+			if(symbol.symbol == market)
+			{
+				//console.log(symbol);
+				symbol.filters.forEach((filter) => {
+					if(filter.filterType == 'LOT_SIZE')
+					{
+						//console.log(filter);
+						var stepSize = filter.stepSize;
+						sellQuantityLotSizeNormalized = Math.floor(sellQuantity / stepSize) * stepSize;
+						console.log('Triggering MARKET order sell ' + market);
+        					console.log('Triggering MARKET order sell with quantity: ' + sellQuantityLotSizeNormalized + ' ' + sellCurrency);
+        					binance.marketSell(buyCurrency + baseCurrency, sellQuantityLotSizeNormalized, (error, response) => {
+                					if(error){ console.log(error.body); return; }
+                						console.log("Market Sell response ", response);
+                						console.log("Sellback Order id: " + response.orderId);
+                						if(response.orderId)
+                						{
+                        						console.log('Triggered MARKET order sell with quantity: ' + sellQuantityLotSizeNormalized + ' ' + sellCurrency);
+                        						var finalBaseCurrencyBalance = 0.0;
+                        						response.fills.forEach((fill) => {
+                                						finalBaseCurrencyBalance = finalBaseCurrencyBalance + (fill.qty * fill.price);
+                        						});
+                        						console.log(baseCurrency + ' balance: ' + finalBaseCurrencyBalance + ' ' + baseCurrency);
+                						}
+       						 });
+
+					}
+				});
+			}
+		});
 	});
 }
 
 tradeExtendedArbitrageStrategy(baseCurrency='USDT',
                                         buyCurrency='BNB',
-                                        targetProfitPercent=0.25,
-                                        stopLossPercent=0.35,
+                                        targetProfitPercent=0.1,
+                                        stopLossPercent=0.1,
                                         feePercent=0.1);
