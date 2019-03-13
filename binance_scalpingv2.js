@@ -214,6 +214,7 @@ function triggerSellBackTrade(baseCurrency, baseCurrencyBalance, sellCurrency, s
 	console.log('Sellback Trade Triggered');
 	var market = sellCurrency + baseCurrency;
 	console.log('Triggering MARKET order sell ' + market);
+	console.log('Triggering MARKET order sell with quantity: ' + sellQuantity + ' ' + sellCurrency);
 	binance.marketSell(buyCurrency + baseCurrency, sellQuantity, (error, response) => {
 		if(error){ console.log(error.body); return; }
 		console.log("Market Sell response ", response);
