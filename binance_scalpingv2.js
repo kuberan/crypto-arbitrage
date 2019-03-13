@@ -133,8 +133,8 @@ function checkNextLeg(buyCurrencyBalance=0.0,
 					maxProfitPercent = parseFloat(profitPercent);
 					maxProfitPercentTradeType = 'ARBITRAGE';
 					maxProfitPercentSecondLegTradeBuyCurrency = symbolBuyCurrency;
-					//console.log(tickerData[symbol]);
-					//console.log(tickerData[thirdLegSymbol]);
+					console.log(tickerData[symbol]);
+					console.log(tickerData[thirdLegSymbol]);
 				}
 				if (profitPercent < maxLossPercent)
 				{
@@ -152,8 +152,8 @@ function checkNextLeg(buyCurrencyBalance=0.0,
 			var sellBackTradeBalance = buyCurrencyBalance * tickerData[buyCurrency + baseCurrency].bidPrice * ((100.0 - feePercent) / 100.0);
 			sellBackProfitPercent = parseFloat((sellBackTradeBalance - baseCurrencyBalance)/baseCurrencyBalance * 100.0).toFixed(2);
 		});
-		//console.log('Arbitrage - ' + 'maxProfit ' + maxProfitPercent + '% maxLoss ' + maxLossPercent + '% minLoss' + minLossPercent + '%');
-		//console.log('SellBack Profit/Loss: ' + sellBackProfitPercent + '%');
+		console.log('Arbitrage - ' + 'maxProfit ' + maxProfitPercent + '% maxLoss ' + maxLossPercent + '% minLoss' + minLossPercent + '%');
+		console.log('SellBack Profit/Loss: ' + sellBackProfitPercent + '%');
 		if(sellBackProfitPercent < parseFloat(0.0) && sellBackProfitPercent > minLossPercent)
 		{
 			minLossPercent = parseFloat(sellBackProfitPercent);
